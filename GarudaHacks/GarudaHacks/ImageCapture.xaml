@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GarudaHacks.ImageCapture">
+    <ContentPage.Content>
+        <Grid>
+            <Image
+                   x:Name="image"
+                   Source=""
+                   Grid.Row="1"
+                   Grid.Column="1"/>
+            <Button
+                x:Name="clickImage"
+                Text="Click an Image"
+                Clicked="clickImage_Clicked"
+                FontSize="Small"
+                HorizontalOptions="Fill"
+                VerticalOptions="CenterAndExpand"
+                Grid.Row="2"
+                Grid.Column="0"/>
+            <Button
+                x:Name="selectImage"
+                Text="Select an Image"
+                Clicked="selectImage_Clicked"
+                FontSize="Small"
+                HorizontalOptions="Fill"
+                VerticalOptions="CenterAndExpand"
+                Grid.Row="2"
+                Grid.Column="2"/>
+            <Button
+                x:Name="sendToCodeSpace"
+                Text="Send To VS CodeSpace"
+                Clicked="sendToCodeSpace_Clicked"
+                FontSize="Small"
+                HorizontalOptions="Fill"
+                VerticalOptions="CenterAndExpand"
+                Grid.Row="3"
+                Grid.Column="1"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

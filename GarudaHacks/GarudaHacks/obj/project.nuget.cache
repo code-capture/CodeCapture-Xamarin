@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "hJiwVTySDLWGrfYX8PqfNxak5Zya6kCX8srX8Wvp/+9xb3QX9+RX/gk1tiD/R0isoFsZlJOn/650dr0J3GI4cQ==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio\\source\\repos\\GarudaHacks\\GarudaHacks\\GarudaHacks\\GarudaHacks\\GarudaHacks.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}
