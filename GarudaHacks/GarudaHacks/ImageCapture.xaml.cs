@@ -27,8 +27,9 @@ namespace GarudaHacks
 
             var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
-                Directory = "Sample",
-                Name = "test.jpg",
+                SaveToAlbum = true,
+                //Directory = "Sample",
+                //Name = "test.jpg",
                 AllowCropping = false
             });
 
@@ -40,6 +41,7 @@ namespace GarudaHacks
             image.Source = ImageSource.FromStream(() =>
             {
                 var stream = file.GetStream();
+                file.Dispose();
                 return stream;
             });
             Debug.WriteLine(image.Source);
@@ -48,6 +50,36 @@ namespace GarudaHacks
         private void sendToCodeSpace_Clicked(object sender, EventArgs e)
         {
             Debug.WriteLine("Send To CodeSpace Button Works!!!");
+        }
+
+        private async void selectImage_Clicked(object sender, EventArgs e)
+        {
+            //Debug.WriteLine("Select The Image Button Works!!!");
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsPickPhotoSupported)
+            {
+                await DisplayAlert("Photos Not Supported",
+                           "Sorry! Permission not granted to photos.", "OK");
+                //return null;
+            }
+
+            var file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new
+                Plugin.Media.Abstractions.PickMediaOptions
+            {
+                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
+            });
+
+            if (file == null)
+                return;
+
+            image.Source = ImageSource.FromStream(() =>
+            {
+                var stream = file.GetStream();
+                file.Dispose();
+                return stream;
+            });
+
         }
     }
 }

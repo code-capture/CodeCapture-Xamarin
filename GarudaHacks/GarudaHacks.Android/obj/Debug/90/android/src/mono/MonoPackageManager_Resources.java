@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"GarudaHacks.Android.dll",
 		"FormsViewGroup.dll",
 		"GarudaHacks.dll",
+		"Plugin.Media.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
