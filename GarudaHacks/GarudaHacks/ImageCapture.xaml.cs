@@ -54,7 +54,13 @@ namespace GarudaHacks
                 await DisplayAlert("Language Not Selected!!!","Go Pick A Language!!!", "OK");
                 return;
             }
-            await DisplayAlert("Send To CodeSpace Button Works!!!","Function To Be Built Yet\nLanguage Selected => "+langPicker.SelectedItem,"OK");
+
+            if (Connectivity.NetworkAccess == NetworkAccess.None)
+            {
+                await DisplayAlert("No Network Available","Please Connect To Your Wifi Or Turn on Mobile Data","OK");
+            }
+
+            await DisplayAlert("Send To CodeSpace Button Works!!!","Function To Be Built Yet\n\nLanguage Selected => "+langPicker.SelectedItem,"OK");
         }
 
         private async void selectImage_Clicked(object sender, EventArgs e)
