@@ -10,44 +10,48 @@
             <Image
                    x:Name="image"
                    Source=""
-                   Grid.Row="1"
-                   Grid.Column="1"/>
+                   Grid.Row="0"
+                   Grid.RowSpan="3"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="3"/>
             <Button
                 x:Name="clickImage"
                 Text="Click an Image"
                 Clicked="clickImage_Clicked"
                 FontSize="Small"
-                HorizontalOptions="Fill"
-                VerticalOptions="CenterAndExpand"
-                Grid.Row="2"
-                Grid.Column="0"/>
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="EndAndExpand"
+                Grid.Row="3"
+                Grid.Column="2"/>
             <Button
                 x:Name="selectImage"
                 Text="Select an Image"
                 Clicked="selectImage_Clicked"
                 FontSize="Small"
-                HorizontalOptions="Fill"
+                HorizontalOptions="FillAndExpand"
                 VerticalOptions="CenterAndExpand"
-                Grid.Row="2"
+                Grid.Row="4"
                 Grid.Column="2"/>
             <Button
                 x:Name="sendToCodeSpace"
                 Text="Send To VS CodeSpace"
                 Clicked="sendToCodeSpace_Clicked"
                 FontSize="Small"
-                HorizontalOptions="Fill"
-                VerticalOptions="CenterAndExpand"
-                Grid.Row="3"
-                Grid.Column="2"/>
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="StartAndExpand"
+                Grid.Row="4"
+                Grid.Column="4"/>
             <Picker 
                 x:Name="langPicker"  
                 Title="Language" 
                 TitleColor="Black"
-                VerticalOptions="Center"
-                Grid.Row="3"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="StartAndExpand"
+                Grid.Row="4"
                 Grid.Column="0">
                 <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
+                    <x:Array 
+                        Type="{x:Type x:String}">
                         <x:String>C++ (.cpp)</x:String>
                         <x:String>Java (.java)</x:String>
                         <x:String>Python (.py)</x:String>

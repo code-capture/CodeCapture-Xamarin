@@ -7,7 +7,7 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label=" " android:icon="@mipmap/launcher_foreground" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:label=" GarudaHacks Test" android:icon="@mipmap/launcher_foreground" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.garudahacks.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
     </provider>
