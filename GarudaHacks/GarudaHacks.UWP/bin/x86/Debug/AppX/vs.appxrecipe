@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>ABB1CD961DCB6B25DB6EBAC7B71F66144925DCC75E1321DC9FB12E2358CE6C42</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>C45E3DCEFC6C46B35949B0943E21B4CB8BFDB8330CF85ECEEAF721CCFB8F4589</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d95a89e8-ef73-4fb8-86a1-99b637d5b896_1.0.0.0_x86__p4xans973vahj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d95a89e8-ef73-4fb8-86a1-99b637d5b896_p4xans973vahj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d95a89e8-ef73-4fb8-86a1-99b637d5b896</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:14:36.338</Modified>
+      <Modified>2020-08-14T11:28:52.181</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.UWP.exe">
       <PackagePath>entrypoint\GarudaHacks.UWP.exe</PackagePath>
-      <Modified>2020-08-13T17:14:33.735</Modified>
+      <Modified>2020-08-14T11:28:49.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\bin\Debug\netstandard2.0\GarudaHacks.dll">
       <PackagePath>GarudaHacks.dll</PackagePath>
-      <Modified>2020-08-13T17:17:04.562</Modified>
+      <Modified>2020-08-14T11:33:49.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -231,11 +231,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-13T17:14:33.517</Modified>
+      <Modified>2020-08-14T11:28:49.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-13T17:14:33.517</Modified>
+      <Modified>2020-08-14T11:28:49.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -251,11 +251,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-13T17:14:34.862</Modified>
+      <Modified>2020-08-14T11:28:50.726</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Core\GarudaHacks.UWP.exe">
       <PackagePath>GarudaHacks.UWP.exe</PackagePath>
-      <Modified>2020-08-13T17:14:36.332</Modified>
+      <Modified>2020-08-14T11:28:52.174</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -21,7 +21,7 @@ namespace GarudaHacks
 
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
             {
-                Debug.WriteLine("No Camera Available");
+                await DisplayAlert("No Camera Available", "Function To Be Built Yet", "OK");
                 return;
             }
 
@@ -44,12 +44,17 @@ namespace GarudaHacks
                 file.Dispose();
                 return stream;
             });
-            Debug.WriteLine(image.Source);
+            //Debug.WriteLine(image.Source);
         }
 
-        private void sendToCodeSpace_Clicked(object sender, EventArgs e)
+        private async void sendToCodeSpace_Clicked(object sender, EventArgs e)
         {
-            Debug.WriteLine("Send To CodeSpace Button Works!!!");
+            if(langPicker.SelectedItem==null)
+            {
+                await DisplayAlert("Language Not Selected!!!","Go Pick A Language!!!", "OK");
+                return;
+            }
+            await DisplayAlert("Send To CodeSpace Button Works!!!","Function To Be Built Yet\nLanguage Selected => "+langPicker.SelectedItem,"OK");
         }
 
         private async void selectImage_Clicked(object sender, EventArgs e)
@@ -65,10 +70,7 @@ namespace GarudaHacks
             }
 
             var file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new
-                Plugin.Media.Abstractions.PickMediaOptions
-            {
-                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
-            });
+                Plugin.Media.Abstractions.PickMediaOptions{ });
 
             if (file == null)
                 return;
@@ -79,7 +81,6 @@ namespace GarudaHacks
                 file.Dispose();
                 return stream;
             });
-
         }
     }
 }

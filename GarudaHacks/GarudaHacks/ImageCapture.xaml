@@ -38,7 +38,22 @@
                 HorizontalOptions="Fill"
                 VerticalOptions="CenterAndExpand"
                 Grid.Row="3"
-                Grid.Column="1"/>
+                Grid.Column="2"/>
+            <Picker 
+                x:Name="langPicker"  
+                Title="Language" 
+                TitleColor="Black"
+                VerticalOptions="Center"
+                Grid.Row="3"
+                Grid.Column="0">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>C++</x:String>
+                        <x:String>Java</x:String>
+                        <x:String>Python</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

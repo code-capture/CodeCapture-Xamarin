@@ -1,0 +1,14 @@
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\bin\Release\netstandard2.0\GarudaHacks.deps.json
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\bin\Release\netstandard2.0\GarudaHacks.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\bin\Release\netstandard2.0\ref\GarudaHacks.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\bin\Release\netstandard2.0\GarudaHacks.pdb
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\App.xaml.g.cs
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\ImageCapture.xaml.g.cs
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\GarudaHacks.AssemblyInfoInputs.cache
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\GarudaHacks.AssemblyInfo.cs
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\GarudaHacks.csproj.CoreCompileInputs.cache
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\XamlC.stamp
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\GarudaHacks.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\ref\GarudaHacks.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Release\netstandard2.0\GarudaHacks.pdb

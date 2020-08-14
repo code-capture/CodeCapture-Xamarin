@@ -1,0 +1,48 @@
+@string/appbar_scrolling_view_behavior;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\rootlayout.xml
+adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\icon.xml
+adaptive-icon;obj\Release\90\res\mipmap-anydpi-v26\icon_round.xml
+alpha;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\enterfromleft.xml
+alpha;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\exittoleft.xml
+android.support.design.widget.AppBarLayout;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\shellcontent.xml
+android.support.design.widget.BottomNavigationView;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\shellcontent.xml
+android.support.design.widget.TabLayout;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\rootlayout.xml
+android.support.design.widget.TabLayout;obj\Release\90\res\layout\tabbar.xml
+android.support.v7.widget.RecyclerView;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.Toolbar;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\shellcontent.xml
+android.support.v7.widget.Toolbar;obj\Release\90\res\layout\toolbar.xml
+background;obj\Release\90\res\mipmap-anydpi-v26\icon.xml
+background;obj\Release\90\res\mipmap-anydpi-v26\icon_round.xml
+cache-path;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Release\90\res\values\colors.xml
+external-cache-path;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-files-path;obj\Release\90\res\xml\file_paths.xml
+external-path;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Release\90\res\mipmap-anydpi-v26\icon.xml
+foreground;obj\Release\90\res\mipmap-anydpi-v26\icon_round.xml
+FrameLayout;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\bottomtablayout.xml
+item;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\values\styles.xml
+item;obj\Release\90\res\values\styles.xml
+LinearLayout;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\bottomtablayout.xml
+paths;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;obj\Release\90\res\xml\file_paths.xml
+resources;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\values\styles.xml
+resources;obj\Release\90\res\values\colors.xml
+resources;obj\Release\90\res\values\styles.xml
+set;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\enterfromleft.xml
+set;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\enterfromright.xml
+set;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\exittoleft.xml
+set;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\exittoright.xml
+style;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\values\styles.xml
+style;obj\Release\90\res\values\styles.xml
+translate;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\enterfromleft.xml
+translate;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\enterfromright.xml
+translate;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\exittoleft.xml
+translate;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\lp\40\jl\res\layout\rootlayout.xml
