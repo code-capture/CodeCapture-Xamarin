@@ -48,9 +48,10 @@
                 Grid.Column="0">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>C++</x:String>
-                        <x:String>Java</x:String>
-                        <x:String>Python</x:String>
+                        <x:String>C++ (.cpp)</x:String>
+                        <x:String>Java (.java)</x:String>
+                        <x:String>Python (.py)</x:String>
+                        <x:String>Text File (.txt)</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
