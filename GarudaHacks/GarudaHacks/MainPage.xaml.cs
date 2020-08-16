@@ -16,7 +16,7 @@ namespace GarudaHacks
         public MainPage()
         {
             InitializeComponent();
-            startButton.Clicked += (s, e) => Navigation.PushAsync(new ImageCapture());
+            logo.Clicked += (s, e) => Navigation.PushAsync(new ImageCapture());
         }
     }
 }

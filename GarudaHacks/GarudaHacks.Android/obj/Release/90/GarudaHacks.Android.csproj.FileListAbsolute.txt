@@ -400,3 +400,8 @@ D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.An
 D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\stamp\_GeneratePackageManagerJava.stamp
 D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\stamp\_ResolveLibraryProjectImports.stamp
 D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\link.flag
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\android\assets\Newtonsoft.Json.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\android\assets\System.Data.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\android\assets\System.Data.pdb
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\android\assets\System.Xml.Linq.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.Android\obj\Release\90\android\assets\System.Xml.Linq.pdb

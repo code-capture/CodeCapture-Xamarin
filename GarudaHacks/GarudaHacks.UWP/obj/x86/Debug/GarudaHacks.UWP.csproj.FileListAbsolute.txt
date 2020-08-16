@@ -65,3 +65,79 @@ D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UW
 D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Plugin.Media.dll
 D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Plugin.Media.pdb
 D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\Plugin.Media.pri.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\App.xbf
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\MainPage.xbf
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.UWP.xr.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.UWP.exe
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.UWP.pdb
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\resources.pri
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\AppxManifest.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Core\AppxManifest.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Core\GarudaHacks.UWP.exe
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.UWP.build.appxrecipe
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\System.Runtime.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Plugin.Media.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Plugin.Media.pdb
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Essentials.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Essentials.pdb
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Forms.Core.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Forms.Core.pdb
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.pdb
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.pdb
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.dll
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.pdb
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\GarudaHacks.UWP.csprojAssemblyReference.cache
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\App.g.i.cs
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\App.g.cs
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\MainPage.g.i.cs
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\MainPage.g.cs
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\App.xaml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\MainPage.xaml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\App.xbf
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\MainPage.xbf
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\XamlSaveStateFile.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\GarudaHacks.UWP.csproj.CoreCompileInputs.cache
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\XamlC.stamp
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\GarudaHacks.UWP.csproj.CopyComplete
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\Plugin.Media.pri.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\GarudaHacks.UWP.exe
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\GarudaHacks.UWP.pdb
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\ResourceHandlingTask.state
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\priconfig.xml
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\priconfig.xml.intermediate
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\unfiltered.layout.resfiles
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\filtered.layout.resfiles
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\excluded.layout.resfiles
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\resources.resfiles
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\resources.resfiles.intermediate
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\pri.resfiles
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\pri.resfiles.intermediate
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\qualifiers.txt
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\qualifiers.txt.intermediate
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\ProjectArchitectures.txt
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160517180000000.json
+D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Microsoft.Rest.ClientRuntime.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\Microsoft.Rest.ClientRuntime\en\Microsoft.Rest.ClientRuntime.Properties.Resources.resw
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\Microsoft.Rest.ClientRuntime.Azure\en\Microsoft.Rest.ClientRuntime.Azure.Properties.Resources.resw
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\resources.en.resfiles
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\obj\x86\Debug\resources.en.resfiles.intermediate

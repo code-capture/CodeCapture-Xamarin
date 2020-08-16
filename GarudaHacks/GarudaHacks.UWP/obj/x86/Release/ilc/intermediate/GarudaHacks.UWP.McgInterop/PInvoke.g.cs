@@ -862,71 +862,10 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, CertGetNameString, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameType__System_Security_Cryptography_X509Certificates__CertNameType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameFlags__System_Security_Cryptography_X509Certificates__CertNameFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameStringType__System_Security_Cryptography_X509Certificates__CertNameStringType__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
+		// Signature, CertGetNameString, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameType__System_Security_Cryptography_X509Certificates__CertNameType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameFlags__System_Security_Cryptography_X509Certificates__CertNameFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates__CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertGetNameString")]
 		public static int CertGetNameString(
-					global::Internal.Cryptography.Pal.Native.SafeCertContextHandle__System_Security_Cryptography_X509Certificates pCertContext, 
-					global::Internal_Cryptography_Pal_Native.CertNameType__System_Security_Cryptography_X509Certificates dwType, 
-					global::Internal_Cryptography_Pal_Native.CertNameFlags__System_Security_Cryptography_X509Certificates dwFlags, 
-					ref global::Internal_Cryptography_Pal_Native.CertNameStringType__System_Security_Cryptography_X509Certificates pvTypePara, 
-					global::System.Text.StringBuilder pszNameString, 
-					int cchNameString)
-		{
-			// Setup
-			bool addRefed = false;
-			ushort* unsafe_pszNameString = default(ushort*);
-			int unsafe___value;
-			try
-			{
-				// Marshalling
-				pCertContext.DangerousAddRef(ref addRefed);
-				fixed (global::Internal_Cryptography_Pal_Native.CertNameStringType__System_Security_Cryptography_X509Certificates* pinned_pvTypePara = &(pvTypePara))
-				{
-					if (pszNameString == null)
-						unsafe_pszNameString = null;
-					else
-					{
-						unsafe_pszNameString = (ushort*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(pszNameString.Capacity * 2 
-											+ 2)));
-						if (unsafe_pszNameString == null)
-							throw new global::System.OutOfMemoryException();
-					}
-					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
-					// Call to native method
-					unsafe___value = global::__Interop.crypt32_dll_PInvokes.CertGetNameString(
-										pCertContext.DangerousGetHandle(), 
-										dwType, 
-										dwFlags, 
-										pinned_pvTypePara, 
-										unsafe_pszNameString, 
-										cchNameString
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
-					if (pszNameString != null)
-						global::System.Runtime.InteropServices.McgMarshal.UnicodeStringToStringBuilder(
-											unsafe_pszNameString, 
-											pszNameString
-										);
-				}
-				if (addRefed)
-					pCertContext.DangerousRelease();
-				// Return
-				return unsafe___value;
-			}
-			finally
-			{
-				// Cleanup
-				if (unsafe_pszNameString != null)
-					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_pszNameString);
-			}
-		}
-
-		// Signature, CertGetNameString__0, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameType__System_Security_Cryptography_X509Certificates__CertNameType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameFlags__System_Security_Cryptography_X509Certificates__CertNameFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates__CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
-			"", "Interop+crypt32", "CertGetNameString")]
-		public static int CertGetNameString__0(
 					global::Internal.Cryptography.Pal.Native.SafeCertContextHandle__System_Security_Cryptography_X509Certificates pCertContext, 
 					global::Internal_Cryptography_Pal_Native.CertNameType__System_Security_Cryptography_X509Certificates dwType, 
 					global::Internal_Cryptography_Pal_Native.CertNameFlags__System_Security_Cryptography_X509Certificates dwFlags, 
@@ -955,11 +894,72 @@ namespace __Interop
 					}
 					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
 					// Call to native method
-					unsafe___value = global::__Interop.crypt32_dll_PInvokes.CertGetNameString__0(
+					unsafe___value = global::__Interop.crypt32_dll_PInvokes.CertGetNameString(
 										pCertContext.DangerousGetHandle(), 
 										dwType, 
 										dwFlags, 
 										pinned_pvPara, 
+										unsafe_pszNameString, 
+										cchNameString
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+					if (pszNameString != null)
+						global::System.Runtime.InteropServices.McgMarshal.UnicodeStringToStringBuilder(
+											unsafe_pszNameString, 
+											pszNameString
+										);
+				}
+				if (addRefed)
+					pCertContext.DangerousRelease();
+				// Return
+				return unsafe___value;
+			}
+			finally
+			{
+				// Cleanup
+				if (unsafe_pszNameString != null)
+					global::System.Runtime.InteropServices.McgMarshal.SafeCoTaskMemFree(unsafe_pszNameString);
+			}
+		}
+
+		// Signature, CertGetNameString__0, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameType__System_Security_Cryptography_X509Certificates__CertNameType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameFlags__System_Security_Cryptography_X509Certificates__CertNameFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertNameStringType__System_Security_Cryptography_X509Certificates__CertNameStringType__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x00041CF4] System_Text_StringBuilder__wchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
+			"", "Interop+crypt32", "CertGetNameString")]
+		public static int CertGetNameString__0(
+					global::Internal.Cryptography.Pal.Native.SafeCertContextHandle__System_Security_Cryptography_X509Certificates pCertContext, 
+					global::Internal_Cryptography_Pal_Native.CertNameType__System_Security_Cryptography_X509Certificates dwType, 
+					global::Internal_Cryptography_Pal_Native.CertNameFlags__System_Security_Cryptography_X509Certificates dwFlags, 
+					ref global::Internal_Cryptography_Pal_Native.CertNameStringType__System_Security_Cryptography_X509Certificates pvTypePara, 
+					global::System.Text.StringBuilder pszNameString, 
+					int cchNameString)
+		{
+			// Setup
+			bool addRefed = false;
+			ushort* unsafe_pszNameString = default(ushort*);
+			int unsafe___value;
+			try
+			{
+				// Marshalling
+				pCertContext.DangerousAddRef(ref addRefed);
+				fixed (global::Internal_Cryptography_Pal_Native.CertNameStringType__System_Security_Cryptography_X509Certificates* pinned_pvTypePara = &(pvTypePara))
+				{
+					if (pszNameString == null)
+						unsafe_pszNameString = null;
+					else
+					{
+						unsafe_pszNameString = (ushort*)global::System.Runtime.InteropServices.McgMarshal.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(pszNameString.Capacity * 2 
+											+ 2)));
+						if (unsafe_pszNameString == null)
+							throw new global::System.OutOfMemoryException();
+					}
+					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+					// Call to native method
+					unsafe___value = global::__Interop.crypt32_dll_PInvokes.CertGetNameString__0(
+										pCertContext.DangerousGetHandle(), 
+										dwType, 
+										dwFlags, 
+										pinned_pvTypePara, 
 										unsafe_pszNameString, 
 										cchNameString
 									);
@@ -1004,6 +1004,36 @@ namespace __Interop
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 			return unsafe___value;
+		}
+
+		// Signature, CertControlStore, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertControlStoreFlags__System_Security_Cryptography_X509Certificates__CertControlStoreFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertControlStoreType__System_Security_Cryptography_X509Certificates__CertControlStoreType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
+			"", "Interop+crypt32", "CertControlStore")]
+		public static bool CertControlStore(
+					global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates hCertStore, 
+					global::Internal_Cryptography_Pal_Native.CertControlStoreFlags__System_Security_Cryptography_X509Certificates dwFlags, 
+					global::Internal_Cryptography_Pal_Native.CertControlStoreType__System_Security_Cryptography_X509Certificates dwControlType, 
+					global::System.IntPtr pvCtrlPara)
+		{
+			// Setup
+			bool addRefed = false;
+			int unsafe___value;
+			// Marshalling
+			hCertStore.DangerousAddRef(ref addRefed);
+			global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+			// Call to native method
+			unsafe___value = global::__Interop.crypt32_dll_PInvokes.CertControlStore(
+								hCertStore.DangerousGetHandle(), 
+								dwFlags, 
+								dwControlType, 
+								pvCtrlPara
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			if (addRefed)
+				hCertStore.DangerousRelease();
+			// Return
+			return unsafe___value != 0;
 		}
 
 		// Signature, CertGetCertificateChain, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_FILETIME__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__FILETIME__System_Security_Cryptography_X509Certificates *, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [managedbyref] [nativebyref] [EETypeRva:0x0004314C] Internal_Cryptography_Pal_Native_CERT_CHAIN_PARA__System_Security_Cryptography_X509Certificates__Internal_Cryptography_Pal_Native__CERT_CHAIN_PARA__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertChainFlags__System_Security_Cryptography_X509Certificates__CertChainFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeX509ChainHandle__System_Security_Cryptography_X509Certificates____w64 int, 
@@ -1223,6 +1253,45 @@ namespace __Interop
 			}
 		}
 
+		// Signature, CertOpenStore, [fwd] [return] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertStoreFlags__System_Security_Cryptography_X509Certificates__CertStoreFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
+			"", "Interop+crypt32", "CertOpenStore")]
+		public static global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates CertOpenStore(
+					global::System.IntPtr lpszStoreProvider, 
+					global::Internal_Cryptography_Pal_Native.CertEncodingType__System_Security_Cryptography_X509Certificates dwMsgAndCertEncodingType, 
+					global::System.IntPtr hCryptProv, 
+					global::Internal_Cryptography_Pal_Native.CertStoreFlags__System_Security_Cryptography_X509Certificates dwFlags, 
+					string pvPara)
+		{
+			// Setup
+			ushort* unsafe_pvPara = default(ushort*);
+			global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates __value;
+			global::System.IntPtr unsafe___value;
+			// Marshalling
+			fixed (char* pinned_pvPara = pvPara)
+			{
+				unsafe_pvPara = (ushort*)pinned_pvPara;
+				__value = new global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates();
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.crypt32_dll_PInvokes.CertOpenStore(
+									lpszStoreProvider, 
+									dwMsgAndCertEncodingType, 
+									hCryptProv, 
+									dwFlags, 
+									unsafe_pvPara
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				global::System.Runtime.InteropServices.McgMarshal.InitializeHandle(
+									__value, 
+									unsafe___value
+								);
+			}
+			// Return
+			return __value;
+		}
+
 		// Signature, CertAddCertificateLinkToStore, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertContextHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertStoreAddDisposition__System_Security_Cryptography_X509Certificates__CertStoreAddDisposition__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CertAddCertificateLinkToStore")]
@@ -1326,75 +1395,6 @@ namespace __Interop
 			}
 		}
 
-		// Signature, CertControlStore, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertControlStoreFlags__System_Security_Cryptography_X509Certificates__CertControlStoreFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertControlStoreType__System_Security_Cryptography_X509Certificates__CertControlStoreType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
-			"", "Interop+crypt32", "CertControlStore")]
-		public static bool CertControlStore(
-					global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates hCertStore, 
-					global::Internal_Cryptography_Pal_Native.CertControlStoreFlags__System_Security_Cryptography_X509Certificates dwFlags, 
-					global::Internal_Cryptography_Pal_Native.CertControlStoreType__System_Security_Cryptography_X509Certificates dwControlType, 
-					global::System.IntPtr pvCtrlPara)
-		{
-			// Setup
-			bool addRefed = false;
-			int unsafe___value;
-			// Marshalling
-			hCertStore.DangerousAddRef(ref addRefed);
-			global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
-			// Call to native method
-			unsafe___value = global::__Interop.crypt32_dll_PInvokes.CertControlStore(
-								hCertStore.DangerousGetHandle(), 
-								dwFlags, 
-								dwControlType, 
-								pvCtrlPara
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
-			if (addRefed)
-				hCertStore.DangerousRelease();
-			// Return
-			return unsafe___value != 0;
-		}
-
-		// Signature, CertOpenStore, [fwd] [return] [EETypeRva:0x000434A4] Internal_Cryptography_Pal_Native_SafeCertStoreHandle__System_Security_Cryptography_X509Certificates____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertStoreFlags__System_Security_Cryptography_X509Certificates__CertStoreFlags__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x00041B44] string__wchar_t *, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
-			"", "Interop+crypt32", "CertOpenStore")]
-		public static global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates CertOpenStore(
-					global::System.IntPtr lpszStoreProvider, 
-					global::Internal_Cryptography_Pal_Native.CertEncodingType__System_Security_Cryptography_X509Certificates dwMsgAndCertEncodingType, 
-					global::System.IntPtr hCryptProv, 
-					global::Internal_Cryptography_Pal_Native.CertStoreFlags__System_Security_Cryptography_X509Certificates dwFlags, 
-					string pvPara)
-		{
-			// Setup
-			ushort* unsafe_pvPara = default(ushort*);
-			global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates __value;
-			global::System.IntPtr unsafe___value;
-			// Marshalling
-			fixed (char* pinned_pvPara = pvPara)
-			{
-				unsafe_pvPara = (ushort*)pinned_pvPara;
-				__value = new global::Internal.Cryptography.Pal.Native.SafeCertStoreHandle__System_Security_Cryptography_X509Certificates();
-				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
-				// Call to native method
-				unsafe___value = global::__Interop.crypt32_dll_PInvokes.CertOpenStore(
-									lpszStoreProvider, 
-									dwMsgAndCertEncodingType, 
-									hCryptProv, 
-									dwFlags, 
-									unsafe_pvPara
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
-				global::System.Runtime.InteropServices.McgMarshal.InitializeHandle(
-									__value, 
-									unsafe___value
-								);
-			}
-			// Return
-			return __value;
-		}
-
 		// Signature, CryptImportPublicKeyInfoEx2, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_PUBLIC_KEY_INFO__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_PUBLIC_KEY_INFO__System_Security_Cryptography_X509Certificates *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeBCryptKeyHandle__System_Security_Cryptography_X509Certificates____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
 			"", "Interop+crypt32", "CryptImportPublicKeyInfoEx2")]
@@ -1489,47 +1489,6 @@ namespace __Interop
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
 			// Return
-		}
-
-		// Signature, CryptDecodeObjectPointer, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates__CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
-			"", "Interop+crypt32", "CryptDecodeObjectPointer")]
-		public static bool CryptDecodeObjectPointer(
-					global::Internal_Cryptography_Pal_Native.CertEncodingType__System_Security_Cryptography_X509Certificates dwCertEncodingType, 
-					global::System.IntPtr lpszStructType, 
-					byte[] pbEncoded, 
-					int cbEncoded, 
-					global::Internal_Cryptography_Pal_Native.CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates dwFlags, 
-					void* pvStructInfo, 
-					ref int pcbStructInfo)
-		{
-			// Setup
-			byte* unsafe_pbEncoded;
-			int unsafe___value;
-			// Marshalling
-			fixed (byte* pinned_pbEncoded = ((pbEncoded != null 
-						&& pbEncoded.Length == 0) ? new byte[1] : pbEncoded))
-			{
-				unsafe_pbEncoded = (byte*)pinned_pbEncoded;
-				fixed (int* pinned_pcbStructInfo = &(pcbStructInfo))
-				{
-					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
-					// Call to native method
-					unsafe___value = global::__Interop.crypt32_dll_PInvokes.CryptDecodeObjectPointer(
-										dwCertEncodingType, 
-										lpszStructType, 
-										unsafe_pbEncoded, 
-										cbEncoded, 
-										dwFlags, 
-										((void*)pvStructInfo), 
-										pinned_pcbStructInfo
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
-				}
-			}
-			// Return
-			return unsafe___value != 0;
 		}
 
 		// Signature, CertFindExtension, [fwd] [return] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_EXTENSION__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_EXTENSION__System_Security_Cryptography_X509Certificates *, [fwd] [in] [EETypeRva:0x00041C30] string__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] Internal_Cryptography_Pal_Native_CERT_EXTENSION__System_Security_Cryptography_X509Certificates___ptrInternal_Cryptography_Pal_Native__CERT_EXTENSION__System_Security_Cryptography_X509Certificates *, 
@@ -1656,6 +1615,47 @@ namespace __Interop
 			}
 			// Return
 			return unsafe___value;
+		}
+
+		// Signature, CryptDecodeObjectPointer, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CertEncodingType__System_Security_Cryptography_X509Certificates__CertEncodingType__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042A40] rg_byte__unsigned char *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042D60] Internal_Cryptography_Pal_Native_CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates__CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates, [fwd] [out] [EETypeRva:0x000419B0] void___ptrvoid *, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] int__int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
+			"", "Interop+crypt32", "CryptDecodeObjectPointer")]
+		public static bool CryptDecodeObjectPointer(
+					global::Internal_Cryptography_Pal_Native.CertEncodingType__System_Security_Cryptography_X509Certificates dwCertEncodingType, 
+					global::System.IntPtr lpszStructType, 
+					byte[] pbEncoded, 
+					int cbEncoded, 
+					global::Internal_Cryptography_Pal_Native.CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates dwFlags, 
+					void* pvStructInfo, 
+					ref int pcbStructInfo)
+		{
+			// Setup
+			byte* unsafe_pbEncoded;
+			int unsafe___value;
+			// Marshalling
+			fixed (byte* pinned_pbEncoded = ((pbEncoded != null 
+						&& pbEncoded.Length == 0) ? new byte[1] : pbEncoded))
+			{
+				unsafe_pbEncoded = (byte*)pinned_pbEncoded;
+				fixed (int* pinned_pcbStructInfo = &(pcbStructInfo))
+				{
+					global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+					// Call to native method
+					unsafe___value = global::__Interop.crypt32_dll_PInvokes.CryptDecodeObjectPointer(
+										dwCertEncodingType, 
+										lpszStructType, 
+										unsafe_pbEncoded, 
+										cbEncoded, 
+										dwFlags, 
+										((void*)pvStructInfo), 
+										pinned_pcbStructInfo
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+				}
+			}
+			// Return
+			return unsafe___value != 0;
 		}
 
 		// Signature, CryptFindOIDInfo__1, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] __Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Cng__Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_Cng, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x00042D60] System_Security_Cryptography_OidGroup__System_Security_Cryptography_Encoding__OidGroup__System_Security_Cryptography_Encoding, 
@@ -1797,81 +1797,6 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, FormatMessage, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
-			"", "Interop+Kernel32", "FormatMessage")]
-		public static int FormatMessage(
-					int dwFlags, 
-					global::System.IntPtr lpSource, 
-					uint dwMessageId, 
-					int dwLanguageId, 
-					char* lpBuffer, 
-					int nSize, 
-					global::System.IntPtr[] arguments)
-		{
-			// Setup
-			global::System.IntPtr* unsafe_arguments;
-			int unsafe___value;
-			// Marshalling
-			fixed (global::System.IntPtr* pinned_arguments = ((arguments != null 
-						&& arguments.Length == 0) ? new global::System.IntPtr[1] : arguments))
-			{
-				unsafe_arguments = (global::System.IntPtr*)pinned_arguments;
-				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
-				// Call to native method
-				unsafe___value = global::__Interop.kernel32_dll_PInvokes.FormatMessage(
-									dwFlags, 
-									lpSource, 
-									dwMessageId, 
-									dwLanguageId, 
-									((ushort*)lpBuffer), 
-									nSize, 
-									unsafe_arguments
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
-			}
-			// Return
-			return unsafe___value;
-		}
-
-		// Signature, FormatMessage__0, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
-		public static int FormatMessage__0(
-					int dwFlags, 
-					global::System.IntPtr lpSource, 
-					uint dwMessageId, 
-					int dwLanguageId, 
-					char* lpBuffer, 
-					int nSize, 
-					global::System.IntPtr[] arguments)
-		{
-			// Setup
-			global::System.IntPtr* unsafe_arguments;
-			int unsafe___value;
-			// Marshalling
-			fixed (global::System.IntPtr* pinned_arguments = ((arguments != null 
-						&& arguments.Length == 0) ? new global::System.IntPtr[1] : arguments))
-			{
-				unsafe_arguments = (global::System.IntPtr*)pinned_arguments;
-				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
-				// Call to native method
-				unsafe___value = global::__Interop.kernel32_dll_PInvokes.FormatMessage__0(
-									dwFlags, 
-									lpSource, 
-									dwMessageId, 
-									dwLanguageId, 
-									((ushort*)lpBuffer), 
-									nSize, 
-									unsafe_arguments
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
-			}
-			// Return
-			return unsafe___value;
-		}
-
 		// Signature, SetThreadErrorMode, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "SetThreadErrorMode")]
 		public static bool SetThreadErrorMode(
@@ -1970,6 +1895,111 @@ namespace __Interop
 			return __value;
 		}
 
+		// Signature, GetCurrentProcessId, [fwd] [return] [EETypeRva:0x000419B0] uint__unsigned int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Diagnostics.TraceSource, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "GetCurrentProcessId")]
+		public static uint GetCurrentProcessId()
+		{
+			// Setup
+			uint unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.GetCurrentProcessId();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, FindClose, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FindClose")]
+		public static bool FindClose(global::System.IntPtr hFindFile)
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+			// Call to native method
+			unsafe___value = global::__Interop.kernel32_dll_PInvokes.FindClose(hFindFile);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			// Return
+			return unsafe___value != 0;
+		}
+
+		// Signature, FormatMessage, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
+			"", "Interop+Kernel32", "FormatMessage")]
+		public static int FormatMessage(
+					int dwFlags, 
+					global::System.IntPtr lpSource, 
+					uint dwMessageId, 
+					int dwLanguageId, 
+					char* lpBuffer, 
+					int nSize, 
+					global::System.IntPtr[] arguments)
+		{
+			// Setup
+			global::System.IntPtr* unsafe_arguments;
+			int unsafe___value;
+			// Marshalling
+			fixed (global::System.IntPtr* pinned_arguments = ((arguments != null 
+						&& arguments.Length == 0) ? new global::System.IntPtr[1] : arguments))
+			{
+				unsafe_arguments = (global::System.IntPtr*)pinned_arguments;
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.kernel32_dll_PInvokes.FormatMessage(
+									dwFlags, 
+									lpSource, 
+									dwMessageId, 
+									dwLanguageId, 
+									((ushort*)lpBuffer), 
+									nSize, 
+									unsafe_arguments
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			}
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, FormatMessage__0, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
+		public static int FormatMessage__0(
+					int dwFlags, 
+					global::System.IntPtr lpSource, 
+					uint dwMessageId, 
+					int dwLanguageId, 
+					char* lpBuffer, 
+					int nSize, 
+					global::System.IntPtr[] arguments)
+		{
+			// Setup
+			global::System.IntPtr* unsafe_arguments;
+			int unsafe___value;
+			// Marshalling
+			fixed (global::System.IntPtr* pinned_arguments = ((arguments != null 
+						&& arguments.Length == 0) ? new global::System.IntPtr[1] : arguments))
+			{
+				unsafe_arguments = (global::System.IntPtr*)pinned_arguments;
+				global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
+				// Call to native method
+				unsafe___value = global::__Interop.kernel32_dll_PInvokes.FormatMessage__0(
+									dwFlags, 
+									lpSource, 
+									dwMessageId, 
+									dwLanguageId, 
+									((ushort*)lpBuffer), 
+									nSize, 
+									unsafe_arguments
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
+			}
+			// Return
+			return unsafe___value;
+		}
+
 		// Signature, LocalAlloc, [fwd] [return] [EETypeRva:0x000434A4] Microsoft_Win32_SafeHandles_SafeLocalAllocHandle__System_Net_Primitives____w64 int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_UIntPtr____w64 unsigned int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "LocalAlloc")]
 		public static global::Microsoft.Win32.SafeHandles.SafeLocalAllocHandle__System_Net_Primitives LocalAlloc(
@@ -1997,22 +2027,6 @@ namespace __Interop
 			return __value;
 		}
 
-		// Signature, FindClose, [fwd] [return] [EETypeRva:0x00040848] bool__System.Boolean, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.IO.FileSystem, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FindClose")]
-		public static bool FindClose(global::System.IntPtr hFindFile)
-		{
-			// Setup
-			int unsafe___value;
-			// Marshalling
-			global::System.Runtime.InteropServices.McgMarshal.ClearLastWin32Error();
-			// Call to native method
-			unsafe___value = global::__Interop.kernel32_dll_PInvokes.FindClose(hFindFile);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::System.Runtime.InteropServices.McgMarshal.SaveLastWin32Error();
-			// Return
-			return unsafe___value != 0;
-		}
-
 		// Signature, LocalFree, [fwd] [return] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "LocalFree")]
 		public static global::System.IntPtr LocalFree(global::System.IntPtr handle)
@@ -2030,7 +2044,7 @@ namespace __Interop
 		}
 
 		// Signature, FormatMessage__1, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
 		public static int FormatMessage__1(
 					int dwFlags, 
 					global::System.IntPtr lpSource, 
@@ -2067,7 +2081,7 @@ namespace __Interop
 		}
 
 		// Signature, FormatMessage__2, [fwd] [return] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [EETypeRva:0x000419B0] uint__unsigned int, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] char___ptrwchar_t *, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x00042A40] rg_System_IntPtr____w64 int *, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Csp, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Cng, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+Kernel32", "FormatMessage")]
 		public static int FormatMessage__2(
 					int dwFlags, 
 					global::System.IntPtr lpSource, 
@@ -5017,21 +5031,6 @@ namespace __Interop
 			return unsafe___value;
 		}
 
-		// Signature, BCryptDestroyKey, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
-			"", "Interop+BCrypt", "BCryptDestroyKey")]
-		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates BCryptDestroyKey(global::System.IntPtr hKey)
-		{
-			// Setup
-			global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates unsafe___value;
-			// Marshalling
-			// Call to native method
-			unsafe___value = global::__Interop.BCrypt_dll_PInvokes.BCryptDestroyKey(hKey);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			// Return
-			return unsafe___value;
-		}
-
 		// Signature, BCryptGenRandom, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, [fwd] [in] [out] [managedbyref] [nativebyref] [EETypeRva:0x000419B0] byte__unsigned char, [fwd] [in] [EETypeRva:0x000419B0] int__int, [fwd] [in] [EETypeRva:0x000419B0] int__int, 
 		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.Algorithms, Version=4.3.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+BCrypt", "BCryptGenRandom")]
 		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms BCryptGenRandom(
@@ -5054,6 +5053,21 @@ namespace __Interop
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
+			// Return
+			return unsafe___value;
+		}
+
+		// Signature, BCryptDestroyKey, [fwd] [return] [EETypeRva:0x00042D60] __Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates__Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates, [fwd] [in] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" +
+			"", "Interop+BCrypt", "BCryptDestroyKey")]
+		public static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates BCryptDestroyKey(global::System.IntPtr hKey)
+		{
+			// Setup
+			global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop.BCrypt_dll_PInvokes.BCryptDestroyKey(hKey);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			// Return
 			return unsafe___value;
 		}
@@ -5814,7 +5828,7 @@ namespace __Interop
 					global::System.IntPtr pCertContext, 
 					global::Internal_Cryptography_Pal_Native.CertNameType__System_Security_Cryptography_X509Certificates dwType, 
 					global::Internal_Cryptography_Pal_Native.CertNameFlags__System_Security_Cryptography_X509Certificates dwFlags, 
-					global::Internal_Cryptography_Pal_Native.CertNameStringType__System_Security_Cryptography_X509Certificates* pvTypePara, 
+					global::Internal_Cryptography_Pal_Native.CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates* pvPara, 
 					ushort* pszNameString, 
 					int cchNameString);
 
@@ -5823,7 +5837,7 @@ namespace __Interop
 					global::System.IntPtr pCertContext, 
 					global::Internal_Cryptography_Pal_Native.CertNameType__System_Security_Cryptography_X509Certificates dwType, 
 					global::Internal_Cryptography_Pal_Native.CertNameFlags__System_Security_Cryptography_X509Certificates dwFlags, 
-					global::Internal_Cryptography_Pal_Native.CertNameStrTypeAndFlags__System_Security_Cryptography_X509Certificates* pvPara, 
+					global::Internal_Cryptography_Pal_Native.CertNameStringType__System_Security_Cryptography_X509Certificates* pvTypePara, 
 					ushort* pszNameString, 
 					int cchNameString);
 
@@ -5832,6 +5846,13 @@ namespace __Interop
 					global::_.Interop_Crypt32_CryptOidInfoKeyType__System_Security_Cryptography_X509Certificates dwKeyType, 
 					global::System.IntPtr pvKey, 
 					global::System_Security_Cryptography.OidGroup__System_Security_Cryptography_Encoding group);
+
+		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int CertControlStore(
+					global::System.IntPtr hCertStore, 
+					global::Internal_Cryptography_Pal_Native.CertControlStoreFlags__System_Security_Cryptography_X509Certificates dwFlags, 
+					global::Internal_Cryptography_Pal_Native.CertControlStoreType__System_Security_Cryptography_X509Certificates dwControlType, 
+					global::System.IntPtr pvCtrlPara);
 
 		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int CertGetCertificateChain(
@@ -5872,6 +5893,14 @@ namespace __Interop
 					int* pcbFormat);
 
 		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static global::System.IntPtr CertOpenStore(
+					global::System.IntPtr lpszStoreProvider, 
+					global::Internal_Cryptography_Pal_Native.CertEncodingType__System_Security_Cryptography_X509Certificates dwMsgAndCertEncodingType, 
+					global::System.IntPtr hCryptProv, 
+					global::Internal_Cryptography_Pal_Native.CertStoreFlags__System_Security_Cryptography_X509Certificates dwFlags, 
+					ushort* pvPara);
+
+		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int CertAddCertificateLinkToStore(
 					global::System.IntPtr hCertStore, 
 					global::System.IntPtr pCertContext, 
@@ -5889,21 +5918,6 @@ namespace __Interop
 					int cbEncoded, 
 					ushort* pbFormat, 
 					int* pcbFormat);
-
-		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static int CertControlStore(
-					global::System.IntPtr hCertStore, 
-					global::Internal_Cryptography_Pal_Native.CertControlStoreFlags__System_Security_Cryptography_X509Certificates dwFlags, 
-					global::Internal_Cryptography_Pal_Native.CertControlStoreType__System_Security_Cryptography_X509Certificates dwControlType, 
-					global::System.IntPtr pvCtrlPara);
-
-		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static global::System.IntPtr CertOpenStore(
-					global::System.IntPtr lpszStoreProvider, 
-					global::Internal_Cryptography_Pal_Native.CertEncodingType__System_Security_Cryptography_X509Certificates dwMsgAndCertEncodingType, 
-					global::System.IntPtr hCryptProv, 
-					global::Internal_Cryptography_Pal_Native.CertStoreFlags__System_Security_Cryptography_X509Certificates dwFlags, 
-					ushort* pvPara);
 
 		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int CryptImportPublicKeyInfoEx2(
@@ -5925,16 +5939,6 @@ namespace __Interop
 
 		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void CertFreeCertificateChain(global::System.IntPtr pChainContext);
-
-		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", EntryPoint="CryptDecodeObject", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static int CryptDecodeObjectPointer(
-					global::Internal_Cryptography_Pal_Native.CertEncodingType__System_Security_Cryptography_X509Certificates dwCertEncodingType, 
-					global::System.IntPtr lpszStructType, 
-					byte* pbEncoded, 
-					int cbEncoded, 
-					global::Internal_Cryptography_Pal_Native.CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates dwFlags, 
-					void* pvStructInfo, 
-					int* pcbStructInfo);
 
 		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static global::Internal_Cryptography_Pal_Native.CERT_EXTENSION__System_Security_Cryptography_X509Certificates* CertFindExtension(
@@ -5961,6 +5965,16 @@ namespace __Interop
 		public extern static int CertVerifyTimeValidity(
 					global::Internal_Cryptography_Pal_Native.FILETIME__System_Security_Cryptography_X509Certificates* pTimeToVerify, 
 					global::Internal_Cryptography_Pal_Native.CERT_INFO__System_Security_Cryptography_X509Certificates* pCertInfo);
+
+		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", EntryPoint="CryptDecodeObject", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int CryptDecodeObjectPointer(
+					global::Internal_Cryptography_Pal_Native.CertEncodingType__System_Security_Cryptography_X509Certificates dwCertEncodingType, 
+					global::System.IntPtr lpszStructType, 
+					byte* pbEncoded, 
+					int cbEncoded, 
+					global::Internal_Cryptography_Pal_Native.CryptDecodeObjectFlags__System_Security_Cryptography_X509Certificates dwFlags, 
+					void* pvStructInfo, 
+					int* pcbStructInfo);
 
 		[global::System.Runtime.InteropServices.DllImport("crypt32.dll", EntryPoint="CryptFindOIDInfo", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static global::System.IntPtr CryptFindOIDInfo__1(
@@ -5995,26 +6009,6 @@ namespace __Interop
 					uint dwFlags, 
 					global::_.Interop_Kernel32_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx);
 
-		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", EntryPoint="FormatMessageW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static int FormatMessage(
-					int dwFlags, 
-					global::System.IntPtr lpSource, 
-					uint dwMessageId, 
-					int dwLanguageId, 
-					ushort* lpBuffer, 
-					int nSize, 
-					global::System.IntPtr* arguments);
-
-		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", EntryPoint="FormatMessageW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static int FormatMessage__0(
-					int dwFlags, 
-					global::System.IntPtr lpSource, 
-					uint dwMessageId, 
-					int dwLanguageId, 
-					ushort* lpBuffer, 
-					int nSize, 
-					global::System.IntPtr* arguments);
-
 		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int SetThreadErrorMode(
 					uint dwNewMode, 
@@ -6036,12 +6030,35 @@ namespace __Interop
 					int dwAdditionalFlags);
 
 		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static global::System.IntPtr LocalAlloc(
-					int uFlags, 
-					global::System.UIntPtr sizetdwBytes);
+		public extern static uint GetCurrentProcessId();
 
 		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int FindClose(global::System.IntPtr hFindFile);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", EntryPoint="FormatMessageW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int FormatMessage(
+					int dwFlags, 
+					global::System.IntPtr lpSource, 
+					uint dwMessageId, 
+					int dwLanguageId, 
+					ushort* lpBuffer, 
+					int nSize, 
+					global::System.IntPtr* arguments);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", EntryPoint="FormatMessageW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static int FormatMessage__0(
+					int dwFlags, 
+					global::System.IntPtr lpSource, 
+					uint dwMessageId, 
+					int dwLanguageId, 
+					ushort* lpBuffer, 
+					int nSize, 
+					global::System.IntPtr* arguments);
+
+		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static global::System.IntPtr LocalAlloc(
+					int uFlags, 
+					global::System.UIntPtr sizetdwBytes);
 
 		[global::System.Runtime.InteropServices.DllImport("kernel32.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static global::System.IntPtr LocalFree(global::System.IntPtr handle);
@@ -6668,14 +6685,14 @@ namespace __Interop
 					int dwFlags);
 
 		[global::System.Runtime.InteropServices.DllImport("BCrypt.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
-		public extern static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates BCryptDestroyKey(global::System.IntPtr hKey);
-
-		[global::System.Runtime.InteropServices.DllImport("BCrypt.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms BCryptGenRandom(
 					global::System.IntPtr hAlgorithm, 
 					byte* pbBuffer, 
 					int cbBuffer, 
 					int dwFlags);
+
+		[global::System.Runtime.InteropServices.DllImport("BCrypt.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
+		public extern static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_X509Certificates BCryptDestroyKey(global::System.IntPtr hKey);
 
 		[global::System.Runtime.InteropServices.DllImport("BCrypt.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static global::_.Interop_BCrypt_NTSTATUS__System_Security_Cryptography_Algorithms BCryptCreateHash(

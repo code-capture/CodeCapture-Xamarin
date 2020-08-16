@@ -28,6 +28,18 @@
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.UWP.exe">
       <PackagePath>entrypoint\GarudaHacks.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.azure.cognitiveservices.vision.computervision\5.0.0\lib\netstandard1.4\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll">
+      <PackagePath>Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.rest.clientruntime\2.3.18\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.dll">
+      <PackagePath>Microsoft.Rest.ClientRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.rest.clientruntime.azure\3.3.18\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.Azure.dll">
+      <PackagePath>Microsoft.Rest.ClientRuntime.Azure.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>

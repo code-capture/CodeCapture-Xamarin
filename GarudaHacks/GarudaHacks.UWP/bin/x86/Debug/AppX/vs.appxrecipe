@@ -30,13 +30,29 @@
     <AppXManifest Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-14T11:28:52.181</Modified>
+      <Modified>2020-08-16T17:48:06.686</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.UWP.exe">
       <PackagePath>entrypoint\GarudaHacks.UWP.exe</PackagePath>
-      <Modified>2020-08-14T11:28:49.680</Modified>
+      <Modified>2020-08-16T17:48:04.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.azure.cognitiveservices.vision.computervision\5.0.0\lib\netstandard1.4\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll">
+      <PackagePath>Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll</PackagePath>
+      <Modified>2019-05-31T11:08:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.rest.clientruntime\2.3.18\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.dll">
+      <PackagePath>Microsoft.Rest.ClientRuntime.dll</PackagePath>
+      <Modified>2018-11-11T19:54:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.rest.clientruntime.azure\3.3.18\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.Azure.dll">
+      <PackagePath>Microsoft.Rest.ClientRuntime.Azure.dll</PackagePath>
+      <Modified>2018-10-26T12:57:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-11-08T19:26:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -72,7 +88,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\bin\Debug\netstandard2.0\GarudaHacks.dll">
       <PackagePath>GarudaHacks.dll</PackagePath>
-      <Modified>2020-08-14T12:06:41.215</Modified>
+      <Modified>2020-08-16T17:47:56.245</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -89,153 +105,153 @@
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.263</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.263</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.263</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.264</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.264</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.265</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.265</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.266</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.266</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.266</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.267</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.267</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.267</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.268</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.268</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.268</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.268</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.269</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.269</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.269</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.269</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.270</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.270</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.270</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.271</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.271</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-13T17:12:22.271</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-08-13T17:12:22.274</Modified>
+      <Modified>2020-08-14T12:35:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\GarudaHacks.UWP.xr.xml">
       <PackagePath>GarudaHacks.UWP.xr.xml</PackagePath>
-      <Modified>2020-08-13T17:12:22.426</Modified>
+      <Modified>2020-08-15T10:56:18.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-14T11:28:49.474</Modified>
+      <Modified>2020-08-16T17:48:04.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-14T11:28:49.474</Modified>
+      <Modified>2020-08-16T17:48:04.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -251,11 +267,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-14T11:28:50.726</Modified>
+      <Modified>2020-08-16T16:52:45.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\bin\x86\Debug\Core\GarudaHacks.UWP.exe">
       <PackagePath>GarudaHacks.UWP.exe</PackagePath>
-      <Modified>2020-08-14T11:28:52.174</Modified>
+      <Modified>2020-08-16T17:48:06.681</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

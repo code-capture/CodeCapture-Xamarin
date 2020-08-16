@@ -1,9 +1,13 @@
 GarudaHacks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 GarudaHacks.UWP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 GarudaHacks.UWP.McgInterop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+Microsoft.Azure.CognitiveServices.Vision.ComputerVision, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+Microsoft.Rest.ClientRuntime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+Microsoft.Rest.ClientRuntime.Azure, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 Microsoft.Win32.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
 Plugin.Media, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.AppContext, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -17,6 +21,7 @@ System.ComponentModel.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyTok
 System.ComponentModel.TypeConverter, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
 System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Data.Common, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Diagnostics.Debug, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Diagnostics.DiagnosticSource, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
 System.Diagnostics.Tools, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -24,6 +29,8 @@ System.Diagnostics.TraceSource, Version=4.1.1.0, Culture=neutral, PublicKeyToken
 System.Diagnostics.Tracing, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Drawing.Primitives, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Globalization, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.IO, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.IO.FileSystem, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Linq, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -61,6 +68,7 @@ System.Private.Xml, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2
 System.Private.Xml.Linq, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
 System.Reflection, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Reflection.DispatchProxy, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Reflection.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Resources.ResourceManager, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Resources.Writer, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Runtime, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -86,6 +94,7 @@ System.Security.Cryptography.Primitives, Version=4.1.1.0, Culture=neutral, Publi
 System.Security.Cryptography.X509Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Security.Principal, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Text.Encoding, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Text.Encoding.CodePages, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Text.Encoding.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Text.RegularExpressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
@@ -95,6 +104,7 @@ System.Threading.Tasks, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7
 System.Threading.Thread, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Threading.ThreadPool, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Threading.Timer, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Transactions.Local, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
 System.Xml.ReaderWriter, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Xml.XDocument, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 System.Xml.XmlSerializer, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
