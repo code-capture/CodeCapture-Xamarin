@@ -27,3 +27,4 @@ D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks\obj\De
 D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks\obj\Debug\netstandard2.0\GarudaHacks.pdb
 D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks\obj\Debug\netstandard2.0\GarudaHacks.csproj.CoreCompileInputs.cache
 D:\GitHub\GarudaHacks-Final\GarudaHacks - Xamarin\GarudaHacks\GarudaHacks\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks\obj\Debug\netstandard2.0\GarudaHacks.csprojAssemblyReference.cache
