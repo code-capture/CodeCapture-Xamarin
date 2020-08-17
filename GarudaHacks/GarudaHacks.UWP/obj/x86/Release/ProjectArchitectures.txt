@@ -1,1 +1,0 @@
-D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\GarudaHacks.UWP.csproj;x86

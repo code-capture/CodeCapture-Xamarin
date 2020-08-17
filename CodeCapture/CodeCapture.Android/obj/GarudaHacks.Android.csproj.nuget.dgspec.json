@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks.Android\\GarudaHacks.Android.csproj": {}
+  },
+  "projects": {
+    "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks.Android\\GarudaHacks.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks.Android\\GarudaHacks.Android.csproj",
+        "projectName": "GarudaHacks.Android",
+        "projectPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks.Android\\GarudaHacks.Android.csproj",
+        "packagesPath": "C:\\Users\\Aditya Oberai\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Aditya Oberai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks\\CodeCapture.csproj": {
+                "projectPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks\\CodeCapture.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.495, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks\\CodeCapture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks\\CodeCapture.csproj",
+        "projectName": "CodeCapture",
+        "projectPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks\\CodeCapture.csproj",
+        "packagesPath": "C:\\Users\\Aditya Oberai\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\GarudaHacks\\GarudaHacks\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Aditya Oberai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.495, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
