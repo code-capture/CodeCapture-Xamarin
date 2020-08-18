@@ -73,3 +73,4 @@ D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UW
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160517180000000.json
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Json.Net.dll

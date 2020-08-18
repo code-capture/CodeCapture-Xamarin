@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("GarudaHacks.MainPage.xaml", "MainPage.xaml", typeof(global::GarudaHacks.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CodeCapture.MainPage.xaml", "MainPage.xaml", typeof(global::CodeCapture.MainPage))]
 
-namespace GarudaHacks {
+namespace CodeCapture {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainPage.xaml")]
@@ -20,9 +20,13 @@ namespace GarudaHacks {
         private global::Xamarin.Forms.ImageButton logo;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Label label;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
             logo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ImageButton>(this, "logo");
+            label = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "label");
         }
     }
 }

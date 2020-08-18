@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CodeCapture.ExtractText">
+    <ContentPage.Content>
+        <Grid>
+            <Label 
+                Text="Editor For Extracted Text"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Header"
+                Grid.Row="0"
+                Grid.RowSpan="6"
+                Grid.Column="0"
+                Grid.ColumnSpan="5"/>
+            
+            <Editor 
+                x:Name="editor"
+                Text="Loading Data..."
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Grid.Row="1"
+                Grid.RowSpan="10"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"/>
+            <Button 
+                x:Name="returnButton"
+                Text="Return"
+                Clicked="returnButton_ClickedAsync"
+                VerticalOptions="Start"
+                Grid.Row="12"
+                Grid.Column="2"
+                />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

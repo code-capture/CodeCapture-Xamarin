@@ -8,7 +8,8 @@ sg.exe          : 2.2.28605.00 built by: PROJECTNREL
 
 Framework:
 clrcompression.dll                                          : 4.6.28529.05 @BuiltBy: dlab14-DDVSOWINAGE080 @Branch: release/uwp6.2 @SrcCode: https://github.com/dotnet/corefx/tree/05ee34d2a43cd29d08c59be10865489dfd6173f5
-GarudaHacks.dll                                             : 1.0.0.0
+CodeCapture.dll                                             : 1.0.0.0
+Json.Net.dll                                                : 1.0.23.1
 Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll : 5.0.19.28102
 Microsoft.CSharp.dll                                        : 4.6.28529.05
 Microsoft.Graphics.Canvas.dll                               : 1.20.0

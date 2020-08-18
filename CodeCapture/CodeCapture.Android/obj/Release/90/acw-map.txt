@@ -1,6 +1,6 @@
-GarudaHacks.Droid.MainActivity, GarudaHacks.Android;crc649906f8c2ccffa743.MainActivity
-GarudaHacks.Droid.MainActivity;crc649906f8c2ccffa743.MainActivity
-garudahacks.droid.MainActivity;crc649906f8c2ccffa743.MainActivity
+CodeCapture.Droid.MainActivity, CodeCapture.Android;crc64600243d6dfe9261e.MainActivity
+CodeCapture.Droid.MainActivity;crc64600243d6dfe9261e.MainActivity
+codecapture.droid.MainActivity;crc64600243d6dfe9261e.MainActivity
 Plugin.Media.MediaPickerActivity, Plugin.Media;crc646957603ea1820544.MediaPickerActivity
 Plugin.Media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity
 plugin.media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity

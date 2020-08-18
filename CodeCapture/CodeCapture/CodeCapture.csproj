@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.CognitiveServices.Vision.ComputerVision" Version="5.0.0" />
+    <PackageReference Include="Json.Net" Version="1.0.23" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
@@ -22,6 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="ExtractText.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="ImageCapture.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

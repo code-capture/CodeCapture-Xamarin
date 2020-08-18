@@ -143,8 +143,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.CognitiveServices.Vision.ComputerVision">
-      <Version>5.0.0</Version>
+    <PackageReference Include="Json.Net">
+      <Version>1.0.23</Version>
     </PackageReference>
     <PackageReference Include="Xam.Plugin.Media">
       <Version>5.0.1</Version>

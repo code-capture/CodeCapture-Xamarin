@@ -42,9 +42,9 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
-            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+            "Json.Net": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[1.0.23, )"
             },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
@@ -105,9 +105,9 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+            "Json.Net": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[1.0.23, )"
             },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",

@@ -1,10 +1,14 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "GarudaHacks.Android.dll" comes first in this list. */
-		"GarudaHacks.Android.dll",
+		/* We need to ensure that "CodeCapture.Android.dll" comes first in this list. */
+		"CodeCapture.Android.dll",
+		"CodeCapture.dll",
 		"FormsViewGroup.dll",
-		"GarudaHacks.dll",
+		"Json.Net.dll",
+		"Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+		"Microsoft.Rest.ClientRuntime.Azure.dll",
+		"Microsoft.Rest.ClientRuntime.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Media.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",

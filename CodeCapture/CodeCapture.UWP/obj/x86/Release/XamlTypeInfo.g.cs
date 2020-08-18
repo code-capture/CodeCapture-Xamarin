@@ -8,22 +8,22 @@
 //------------------------------------------------------------------------------
 
 
-namespace GarudaHacks.UWP
+namespace CodeCapture.UWP
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace GarudaHacks.UWP
     }
 }
 
-namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
+namespace CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }
@@ -127,7 +127,7 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Windows.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForType(type);
@@ -166,7 +166,7 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Windows.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForName(typeName);
@@ -228,7 +228,7 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
             _typeNameTable[1] = "Xamarin.Forms.Platform.UWP.WindowsBasePage";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[3] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[4] = "GarudaHacks.UWP.MainPage";
+            _typeNameTable[4] = "CodeCapture.UWP.MainPage";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
             _typeNameTable[6] = "Windows.UI.Xaml.DependencyObject";
             _typeNameTable[7] = "Boolean";
@@ -263,7 +263,7 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
             _typeTable[1] = typeof(global::Xamarin.Forms.Platform.UWP.WindowsBasePage);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[4] = typeof(global::GarudaHacks.UWP.MainPage);
+            _typeTable[4] = typeof(global::CodeCapture.UWP.MainPage);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
             _typeTable[6] = typeof(global::Windows.UI.Xaml.DependencyObject);
             _typeTable[7] = typeof(global::System.Boolean);
@@ -327,7 +327,7 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
         }
 
         private object Activate_0_WindowsPage() { return new global::Xamarin.Forms.Platform.UWP.WindowsPage(); }
-        private object Activate_4_MainPage() { return new global::GarudaHacks.UWP.MainPage(); }
+        private object Activate_4_MainPage() { return new global::CodeCapture.UWP.MainPage(); }
         private object Activate_5_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private object Activate_11_ShellRenderer() { return new global::Xamarin.Forms.Platform.UWP.ShellRenderer(); }
         private object Activate_12_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
@@ -348,8 +348,8 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType userType;
+            global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -357,33 +357,33 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
             {
 
             case 0:   //  Xamarin.Forms.Platform.UWP.WindowsPage
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Xamarin.Forms.Platform.UWP.WindowsBasePage"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Xamarin.Forms.Platform.UWP.WindowsBasePage"));
                 userType.Activator = Activate_0_WindowsPage;
                 xamlType = userType;
                 break;
 
             case 1:   //  Xamarin.Forms.Platform.UWP.WindowsBasePage
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 xamlType = userType;
                 break;
 
             case 2:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  GarudaHacks.UWP.MainPage
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Xamarin.Forms.Platform.UWP.WindowsPage"));
+            case 4:   //  CodeCapture.UWP.MainPage
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Xamarin.Forms.Platform.UWP.WindowsPage"));
                 userType.Activator = Activate_4_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 5:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_5_TreeViewNode;
                 userType.AddMemberName("IsExpanded");
                 userType.AddMemberName("HasUnrealizedChildren");
@@ -397,37 +397,37 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
                 break;
 
             case 6:   //  Windows.UI.Xaml.DependencyObject
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 7:   //  Boolean
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 8:   //  Object
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 9:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.CollectionAdd = VectorAdd_9_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 10:   //  Int32
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 11:   //  Xamarin.Forms.Platform.UWP.ShellRenderer
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView"));
                 userType.Activator = Activate_11_ShellRenderer;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
             case 12:   //  Microsoft.UI.Xaml.Controls.NavigationView
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
                 userType.Activator = Activate_12_NavigationView;
                 userType.AddMemberName("IsTitleBarAutoPaddingEnabled");
                 userType.AddMemberName("IsSettingsVisible");
@@ -468,11 +468,11 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
                 break;
 
             case 13:   //  Windows.UI.Xaml.Controls.ContentControl
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 14:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Auto);
@@ -480,41 +480,41 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
                 break;
 
             case 15:   //  System.Enum
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
             case 16:   //  System.ValueType
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
             case 17:   //  Windows.UI.Xaml.DataTemplate
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 18:   //  Double
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 19:   //  Windows.UI.Xaml.Style
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 20:   //  Windows.UI.Xaml.UIElement
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 21:   //  Windows.UI.Xaml.Controls.AutoSuggestBox
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 22:   //  Windows.UI.Xaml.Controls.StyleSelector
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 23:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
                 userType.AddEnumValue("Never", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Never);
@@ -522,18 +522,18 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
                 break;
 
             case 24:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
                 break;
 
             case 25:   //  String
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 26:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
                 userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Top);
@@ -543,18 +543,18 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
                 break;
 
             case 27:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
                 break;
 
             case 28:   //  Windows.UI.Xaml.Controls.DataTemplateSelector
-                xamlType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 29:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
                 userType.AddEnumValue("Expanded", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Expanded);
@@ -562,20 +562,20 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
                 break;
 
             case 30:   //  System.Collections.Generic.IList`1<Object>
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.CollectionAdd = VectorAdd_30_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 31:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 32:   //  Xamarin.Forms.Platform.UWP.ShellSectionRenderer
-                userType = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView"));
+                userType = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView"));
                 userType.Activator = Activate_32_ShellSectionRenderer;
                 userType.SetIsBindable();
                 xamlType = userType;
@@ -1024,298 +1024,298 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember xamlMember = null;
-            global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType userType;
+            global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember xamlMember = null;
+            global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_TreeViewNode_IsExpanded;
                 xamlMember.Setter = set_0_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.Getter = get_1_TreeViewNode_HasUnrealizedChildren;
                 xamlMember.Setter = set_1_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "Content", "Object");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_2_TreeViewNode_Content;
                 xamlMember.Setter = set_2_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
                 xamlMember.Getter = get_3_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_4_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_5_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember.Getter = get_6_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsTitleBarAutoPaddingEnabled":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_7_NavigationView_IsTitleBarAutoPaddingEnabled;
                 xamlMember.Setter = set_7_NavigationView_IsTitleBarAutoPaddingEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsSettingsVisible":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_8_NavigationView_IsSettingsVisible;
                 xamlMember.Setter = set_8_NavigationView_IsSettingsVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneVisible":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_9_NavigationView_IsPaneVisible;
                 xamlMember.Setter = set_9_NavigationView_IsPaneVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneToggleButtonVisible":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_10_NavigationView_IsPaneToggleButtonVisible;
                 xamlMember.Setter = set_10_NavigationView_IsPaneToggleButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneOpen":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_11_NavigationView_IsPaneOpen;
                 xamlMember.Setter = set_11_NavigationView_IsPaneOpen;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackEnabled":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_12_NavigationView_IsBackEnabled;
                 xamlMember.Setter = set_12_NavigationView_IsBackEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackButtonVisible":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_13_NavigationView_IsBackButtonVisible;
                 xamlMember.Setter = set_13_NavigationView_IsBackButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Windows.UI.Xaml.DataTemplate");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Windows.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_14_NavigationView_HeaderTemplate;
                 xamlMember.Setter = set_14_NavigationView_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.Header":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_15_NavigationView_Header;
                 xamlMember.Setter = set_15_NavigationView_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ExpandedModeThresholdWidth":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_16_NavigationView_ExpandedModeThresholdWidth;
                 xamlMember.Setter = set_16_NavigationView_ExpandedModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyle":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Windows.UI.Xaml.Style");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_17_NavigationView_MenuItemContainerStyle;
                 xamlMember.Setter = set_17_NavigationView_MenuItemContainerStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Windows.UI.Xaml.UIElement");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Windows.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_18_NavigationView_ContentOverlay;
                 xamlMember.Setter = set_18_NavigationView_ContentOverlay;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactPaneLength":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_19_NavigationView_CompactPaneLength;
                 xamlMember.Setter = set_19_NavigationView_CompactPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactModeThresholdWidth":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_20_NavigationView_CompactModeThresholdWidth;
                 xamlMember.Setter = set_20_NavigationView_CompactModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AutoSuggestBox":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Windows.UI.Xaml.Controls.AutoSuggestBox");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Windows.UI.Xaml.Controls.AutoSuggestBox");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_21_NavigationView_AutoSuggestBox;
                 xamlMember.Setter = set_21_NavigationView_AutoSuggestBox;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyleSelector":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Windows.UI.Xaml.Controls.StyleSelector");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Windows.UI.Xaml.Controls.StyleSelector");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_22_NavigationView_MenuItemContainerStyleSelector;
                 xamlMember.Setter = set_22_NavigationView_MenuItemContainerStyleSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AlwaysShowHeader":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_23_NavigationView_AlwaysShowHeader;
                 xamlMember.Setter = set_23_NavigationView_AlwaysShowHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ShoulderNavigationEnabled":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_24_NavigationView_ShoulderNavigationEnabled;
                 xamlMember.Setter = set_24_NavigationView_ShoulderNavigationEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectionFollowsFocus":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_25_NavigationView_SelectionFollowsFocus;
                 xamlMember.Setter = set_25_NavigationView_SelectionFollowsFocus;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectedItem":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_26_NavigationView_SelectedItem;
                 xamlMember.Setter = set_26_NavigationView_SelectedItem;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneToggleButtonStyle":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Windows.UI.Xaml.Style");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_27_NavigationView_PaneToggleButtonStyle;
                 xamlMember.Setter = set_27_NavigationView_PaneToggleButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneTitle":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_28_NavigationView_PaneTitle;
                 xamlMember.Setter = set_28_NavigationView_PaneTitle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneHeader":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "PaneHeader", "Windows.UI.Xaml.UIElement");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "PaneHeader", "Windows.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_29_NavigationView_PaneHeader;
                 xamlMember.Setter = set_29_NavigationView_PaneHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneFooter":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "PaneFooter", "Windows.UI.Xaml.UIElement");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "PaneFooter", "Windows.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_30_NavigationView_PaneFooter;
                 xamlMember.Setter = set_30_NavigationView_PaneFooter;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneDisplayMode":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_31_NavigationView_PaneDisplayMode;
                 xamlMember.Setter = set_31_NavigationView_PaneDisplayMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Windows.UI.Xaml.UIElement");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Windows.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_32_NavigationView_PaneCustomContent;
                 xamlMember.Setter = set_32_NavigationView_PaneCustomContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OverflowLabelMode":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_33_NavigationView_OverflowLabelMode;
                 xamlMember.Setter = set_33_NavigationView_OverflowLabelMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OpenPaneLength":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_34_NavigationView_OpenPaneLength;
                 xamlMember.Setter = set_34_NavigationView_OpenPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemsSource":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_35_NavigationView_MenuItemsSource;
                 xamlMember.Setter = set_35_NavigationView_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplateSelector":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Windows.UI.Xaml.Controls.DataTemplateSelector");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Windows.UI.Xaml.Controls.DataTemplateSelector");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_36_NavigationView_MenuItemTemplateSelector;
                 xamlMember.Setter = set_36_NavigationView_MenuItemTemplateSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplate":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Windows.UI.Xaml.DataTemplate");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Windows.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_37_NavigationView_MenuItemTemplate;
                 xamlMember.Setter = set_37_NavigationView_MenuItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.DisplayMode":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_38_NavigationView_DisplayMode;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItems":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_39_NavigationView_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SettingsItem":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_40_NavigationView_SettingsItem;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.TemplateSettings":
-                userType = (global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
+                userType = (global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_41_NavigationView_TemplateSettings;
                 xamlMember.SetIsReadOnly();
@@ -1375,9 +1375,9 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlSystemBaseType
     {
-        global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -1391,7 +1391,7 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -1588,7 +1588,7 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -1597,7 +1597,7 @@ namespace GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::GarudaHacks.UWP.GarudaHacks_UWP_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::CodeCapture.UWP.CodeCapture_UWP_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

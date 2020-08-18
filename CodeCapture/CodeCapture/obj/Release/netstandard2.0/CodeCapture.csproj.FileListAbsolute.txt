@@ -1,0 +1,16 @@
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\bin\Release\netstandard2.0\CodeCapture.deps.json
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\bin\Release\netstandard2.0\CodeCapture.dll
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\bin\Release\netstandard2.0\ref\CodeCapture.dll
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\bin\Release\netstandard2.0\CodeCapture.pdb
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\App.xaml.g.cs
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\ImageCapture.xaml.g.cs
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\CodeCapture.AssemblyInfoInputs.cache
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\CodeCapture.AssemblyInfo.cs
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\CodeCapture.csproj.CoreCompileInputs.cache
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\XamlC.stamp
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\CodeCapture.dll
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\ref\CodeCapture.dll
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\CodeCapture.pdb
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\CodeCapture.csprojAssemblyReference.cache
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Release\netstandard2.0\ExtractText.xaml.g.cs

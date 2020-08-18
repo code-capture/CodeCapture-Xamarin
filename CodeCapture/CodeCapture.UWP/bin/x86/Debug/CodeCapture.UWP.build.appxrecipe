@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\CodeCapture.UWP.exe">
       <PackagePath>entrypoint\CodeCapture.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\json.net\1.0.23\lib\netstandard2.0\Json.Net.dll">
+      <PackagePath>Json.Net.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.azure.cognitiveservices.vision.computervision\5.0.0\lib\netstandard1.4\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll">
       <PackagePath>Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll</PackagePath>
     </AppxPackagedFile>

@@ -5,14 +5,14 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 using Plugin.Media;
-using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
-using Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models;
 using System.Threading.Tasks;
 using System.IO;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Linq;
 using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
+using CodeCapture.ReadModels;
 
 namespace CodeCapture
 {
@@ -21,9 +21,6 @@ namespace CodeCapture
     {
         private string imagePath;
 
-        string subscriptionKey = "ffc60f43d45049b185f8ab5c9b79c2d3";
-
-        string endpoint = "https://centralindia.api.cognitive.microsoft.com/";
         public ImageCapture()
         {
             InitializeComponent();
@@ -96,7 +93,7 @@ namespace CodeCapture
         }
 
         //Sends the image to the Read API for the text to be extracted
-        private async void sendToCodeSpace_Clicked(object sender, EventArgs e)
+        private async void extractText_Clicked(object sender, EventArgs e)
         {
             if (langPicker.SelectedItem == null)
             {
@@ -110,82 +107,9 @@ namespace CodeCapture
             }
 
             //await DisplayAlert("Send To CodeSpace Button Works!!!","Function To Be Built Yet\n\nLanguage Selected => "+langPicker.SelectedItem,"OK");
-
-            await ReadText(imagePath);
+            //ExtractText = new NavigationPage(new CodeCapture.ExtractText(imagePath));
+            await Navigation.PushModalAsync(new ExtractText(imagePath));
         }
-
-        //Uses the Read API on the image to extract text from images images 
-        public async Task ReadText(string imageFilePath)
-        {
-            try
-            {
-                string uriBase = endpoint + "/vision/v3.0/read/analyze";
-                await DisplayAlert("Start Read API", "Best Of Luck", "Thanks");
-                HttpClient client = new HttpClient();
-
-                client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", subscriptionKey);
-
-                string url = uriBase;
-
-                HttpResponseMessage response;
-
-                string operationLocation;
-
-                byte[] byteData = GetImageAsByteArray(imageFilePath);
-
-                using (ByteArrayContent content = new ByteArrayContent(byteData))
-                {
-                    content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
-
-                    response = await client.PostAsync(url, content);
-                }
-
-                if (response.IsSuccessStatusCode)
-                {
-                    operationLocation = response.Headers.GetValues("Operation-Location").FirstOrDefault();
-                }
-                else
-                {
-                    string errorString = await response.Content.ReadAsStringAsync();
-                    Debug.WriteLine("\n\nResponse:\n{0}\n",
-                        JToken.Parse(errorString).ToString());
-                    return;
-                }
-
-                string contentString;
-                int i = 0;
-                do
-                {
-                    System.Threading.Thread.Sleep(1000);
-                    response = await client.GetAsync(operationLocation);
-                    contentString = await response.Content.ReadAsStringAsync();
-                    ++i;
-                }
-                while (i < 60 && contentString.IndexOf("\"status\":\"succeeded\"") == -1);
-
-                if (i == 60 && contentString.IndexOf("\"status\":\"succeeded\"") == -1)
-                {
-                    Debug.WriteLine("\nTimeout error.\n");
-                    return;
-                }
-
-                await DisplayAlert("JSON Response", JToken.Parse(contentString).ToString(), "OK");
-            }
-            catch (Exception e)
-            {
-                Debug.WriteLine("\n" + e.Message);
-            }
-        }
-
-        //Converts Image to Byte Array and return it
-        public byte[] GetImageAsByteArray(string imageFilePath)
-        {
-            using (FileStream fileStream =
-                new FileStream(imageFilePath, FileMode.Open, FileAccess.Read))
-            {
-                BinaryReader binaryReader = new BinaryReader(fileStream);
-                return binaryReader.ReadBytes((int)fileStream.Length);
-            }
-        }
+        
     }
 }

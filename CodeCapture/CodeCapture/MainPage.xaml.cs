@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace CodeCapture
@@ -16,7 +17,19 @@ namespace CodeCapture
         public MainPage()
         {
             InitializeComponent();
-            logo.Clicked += (s, e) => Navigation.PushAsync(new ImageCapture());
+
+            if (Connectivity.NetworkAccess == NetworkAccess.None)
+            {
+                label.Text="No Network Available\nPlease Connect To Your Wifi Or Turn on Mobile Data";
+                logo.IsEnabled = false;
+            }
+            else
+            {
+                label.Text = "Tap On The Logo to Continue";
+                logo.IsEnabled = true;
+            }
+
+            logo.Clicked += (s, e) => Navigation.PushModalAsync(new ImageCapture());
         }
     }
 }

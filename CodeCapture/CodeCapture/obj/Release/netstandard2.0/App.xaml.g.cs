@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("GarudaHacks.App.xaml", "App.xaml", typeof(global::GarudaHacks.App))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CodeCapture.App.xaml", "App.xaml", typeof(global::CodeCapture.App))]
 
-namespace GarudaHacks {
+namespace CodeCapture {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("App.xaml")]

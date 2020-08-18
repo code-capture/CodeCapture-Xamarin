@@ -15,7 +15,8 @@
             VerticalOptions="CenterAndExpand" 
             Grid.Row="0"
             Grid.RowSpan="2"/>
-        <Label 
+        <Label
+            x:Name="label"
             Text="Tap On The Logo to Continue" 
             HorizontalOptions="CenterAndExpand"
             VerticalOptions="CenterAndExpand"

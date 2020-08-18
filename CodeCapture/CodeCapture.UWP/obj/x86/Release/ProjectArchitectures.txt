@@ -1,1 +1,1 @@
-D:\Visual Studio\source\repos\GarudaHacks\GarudaHacks\GarudaHacks\GarudaHacks.UWP\GarudaHacks.UWP.csproj;x86
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\CodeCapture.UWP.csproj;x86

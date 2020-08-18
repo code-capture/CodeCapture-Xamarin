@@ -3,7 +3,7 @@
 	.section	.rodata.env.str.1,"aMS",@progbits,1
 	.type	.L.env.str.1, @object
 .L.env.str.1:
-	.asciz	"com.companyname.garudahacks"
+	.asciz	"com.companyname.CodeCapture"
 	.size	.L.env.str.1, 28
 	.section	.data.application_config,"aw",@progbits
 	.type	application_config, @object
@@ -73,7 +73,7 @@ mono_aot_mode_name:
 	.section	.rodata.env.str.8,"aMS",@progbits,1
 	.type	.L.env.str.8, @object
 .L.env.str.8:
-	.asciz	"cec11f2e-e423-436e-85bd-3730fac2e072"
+	.asciz	"1b7cf835-457f-461c-9e75-f1bee7c3a6a1"
 	.size	.L.env.str.8, 37
 	.section	.rodata.env.str.9,"aMS",@progbits,1
 	.type	.L.env.str.9, @object

@@ -41,9 +41,9 @@
                 Grid.Column="3"
                 Grid.ColumnSpan="2"/>
             <Button
-                x:Name="sendToCodeSpace"
-                Text="Send To VS CodeSpace"
-                Clicked="sendToCodeSpace_Clicked"
+                x:Name="extractText"
+                Text="Extract Text"
+                Clicked="extractText_Clicked"
                 BackgroundColor="#7F0DFF00"
                 BorderColor="Black"
                 BorderWidth="1.5"
