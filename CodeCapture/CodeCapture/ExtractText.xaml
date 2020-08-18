@@ -10,7 +10,7 @@
             <Label 
                 Text="Editor For Extracted Text"
                 HorizontalOptions="CenterAndExpand"
-                FontSize="Header"
+                FontSize="Title"
                 Grid.Row="0"
                 Grid.RowSpan="6"
                 Grid.Column="0"
@@ -25,14 +25,31 @@
                 Grid.RowSpan="10"
                 Grid.Column="1"
                 Grid.ColumnSpan="3"/>
+            
             <Button 
                 x:Name="returnButton"
                 Text="Return"
                 Clicked="returnButton_ClickedAsync"
                 VerticalOptions="Start"
                 Grid.Row="12"
+                Grid.Column="0"
+                Grid.ColumnSpan="1"/>
+
+            <Entry 
+                x:Name="email"
+                Placeholder="Email Address"
+                VerticalOptions="Start"
+                Grid.Row="12"
                 Grid.Column="2"
-                />
+                Grid.ColumnSpan="2"/>
+
+            <Button 
+                x:Name="emailButton"
+                Text="Send" 
+                Clicked="emailButton_Clicked"
+                VerticalOptions="Start"
+                Grid.Row="12"
+                Grid.Column="4"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
