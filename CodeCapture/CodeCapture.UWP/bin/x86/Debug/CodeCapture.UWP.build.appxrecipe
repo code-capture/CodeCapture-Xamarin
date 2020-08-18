@@ -31,15 +31,6 @@
     <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\json.net\1.0.23\lib\netstandard2.0\Json.Net.dll">
       <PackagePath>Json.Net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.azure.cognitiveservices.vision.computervision\5.0.0\lib\netstandard1.4\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll">
-      <PackagePath>Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.rest.clientruntime\2.3.18\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.dll">
-      <PackagePath>Microsoft.Rest.ClientRuntime.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.rest.clientruntime.azure\3.3.18\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.Azure.dll">
-      <PackagePath>Microsoft.Rest.ClientRuntime.Azure.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>

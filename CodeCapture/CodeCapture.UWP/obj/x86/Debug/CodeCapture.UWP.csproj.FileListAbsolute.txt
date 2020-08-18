@@ -9,9 +9,7 @@ D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UW
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Core\AppxManifest.xml
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Core\CodeCapture.UWP.exe
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\CodeCapture.UWP.build.appxrecipe
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Microsoft.Rest.ClientRuntime.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Json.Net.dll
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Newtonsoft.Json.dll
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\System.Runtime.dll
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
@@ -51,8 +49,6 @@ D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UW
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\CodeCapture.UWP.exe
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\CodeCapture.UWP.pdb
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\ResourceHandlingTask.state
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\Microsoft.Rest.ClientRuntime\en\Microsoft.Rest.ClientRuntime.Properties.Resources.resw
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\Microsoft.Rest.ClientRuntime.Azure\en\Microsoft.Rest.ClientRuntime.Azure.Properties.Resources.resw
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\priconfig.xml
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\priconfig.xml.intermediate
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\unfiltered.layout.resfiles
@@ -68,9 +64,6 @@ D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UW
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\qualifiers.txt
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\resources.en.resfiles
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\resources.en.resfiles.intermediate
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160517180000000.json
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Json.Net.dll

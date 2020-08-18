@@ -30,29 +30,17 @@
     <AppXManifest Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-18T05:21:28.231</Modified>
+      <Modified>2020-08-18T07:23:18.444</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\CodeCapture.UWP.exe">
       <PackagePath>entrypoint\CodeCapture.UWP.exe</PackagePath>
-      <Modified>2020-08-18T05:21:26.555</Modified>
+      <Modified>2020-08-18T07:23:11.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\json.net\1.0.23\lib\netstandard2.0\Json.Net.dll">
       <PackagePath>Json.Net.dll</PackagePath>
       <Modified>2020-06-20T16:17:44.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.azure.cognitiveservices.vision.computervision\5.0.0\lib\netstandard1.4\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll">
-      <PackagePath>Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll</PackagePath>
-      <Modified>2019-05-31T11:08:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.rest.clientruntime\2.3.18\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.dll">
-      <PackagePath>Microsoft.Rest.ClientRuntime.dll</PackagePath>
-      <Modified>2018-11-11T19:54:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.rest.clientruntime.azure\3.3.18\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.Azure.dll">
-      <PackagePath>Microsoft.Rest.ClientRuntime.Azure.dll</PackagePath>
-      <Modified>2018-10-26T12:57:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -92,7 +80,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\bin\Debug\netstandard2.0\CodeCapture.dll">
       <PackagePath>CodeCapture.dll</PackagePath>
-      <Modified>2020-08-18T05:23:38.403</Modified>
+      <Modified>2020-08-18T07:23:00.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Aditya Oberai\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -251,11 +239,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-18T05:21:26.349</Modified>
+      <Modified>2020-08-18T07:23:11.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-18T05:21:26.350</Modified>
+      <Modified>2020-08-18T07:23:11.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -271,11 +259,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-18T05:01:56.201</Modified>
+      <Modified>2020-08-18T07:23:13.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Debug\Core\CodeCapture.UWP.exe">
       <PackagePath>CodeCapture.UWP.exe</PackagePath>
-      <Modified>2020-08-18T05:21:28.227</Modified>
+      <Modified>2020-08-18T07:23:18.435</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

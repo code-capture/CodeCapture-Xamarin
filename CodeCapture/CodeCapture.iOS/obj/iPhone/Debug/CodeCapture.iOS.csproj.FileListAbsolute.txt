@@ -1,16 +1,7 @@
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\CodeCapture.iOS.exe
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\CodeCapture.iOS.pdb
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\Json.Net.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\Microsoft.Rest.ClientRuntime.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\System.IO.Compression.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\System.Net.Http.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\System.Security.Cryptography.Algorithms.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\System.Security.Cryptography.Encoding.dll
-D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\System.Security.Cryptography.X509Certificates.dll
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\Plugin.Media.dll
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\Plugin.Media.pdb
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
