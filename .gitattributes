@@ -1,0 +1,2 @@
+*.pdb filter=lfs diff=lfs merge=lfs -text
+[[:space:]]CodeCapture/CodeCapture.UWP/bin/x86/Release/ilc/CodeCapture.UWP.pdb filter=lfs diff=lfs merge=lfs -text

@@ -68,10 +68,10 @@
                 <Picker.ItemsSource>
                     <x:Array 
                         Type="{x:Type x:String}">
-                        <x:String>CPP</x:String>
+                        <x:String>C++</x:String>
                         <x:String>Java</x:String>
                         <x:String>Python</x:String>
-                        <x:String>Text (.txt)</x:String>
+                        <x:String>Text</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>

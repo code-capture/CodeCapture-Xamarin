@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net.Mail;
+using System.Net.Mime;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -20,9 +21,11 @@ namespace CodeCapture
         string subscriptionKey = "ffc60f43d45049b185f8ab5c9b79c2d3";
         string extract = "";
         string endpoint = "https://centralindia.api.cognitive.microsoft.com/";
+        string FilePath;
         public ExtractText(string imagePath)
         {
             InitializeComponent();
+            FilePath = imagePath;
             ReadText(imagePath);
         }
 
@@ -32,6 +35,7 @@ namespace CodeCapture
         {
             try
             {
+                //await DisplayAlert("File Path", imageFilePath, "OK");
                 string uriBase = endpoint + "/vision/v3.0/read/analyze";
                 await DisplayAlert("Start Read API", "Best Of Luck", "Thanks");
                 HttpClient client = new HttpClient();
@@ -112,8 +116,7 @@ namespace CodeCapture
         //Converts Image to Byte Array and return it
         public byte[] GetImageAsByteArray(string imageFilePath)
         {
-            using (FileStream fileStream =
-                new FileStream(imageFilePath, FileMode.Open, FileAccess.Read))
+            using (FileStream fileStream = new FileStream(imageFilePath, FileMode.Open, FileAccess.Read))
             {
                 BinaryReader binaryReader = new BinaryReader(fileStream);
                 return binaryReader.ReadBytes((int)fileStream.Length);
@@ -136,6 +139,9 @@ namespace CodeCapture
                 mail.To.Add(email.Text);
                 mail.Subject = "CodeCapture Scan";
                 mail.Body = "Thanks for using CodeCapture.\nHere's your scan:\n\n"+extract;
+
+                Attachment data = new Attachment(FilePath, MediaTypeNames.Application.Octet);
+                mail.Attachments.Add(data);
 
                 SmtpServer.Port = 587;
                 SmtpServer.Host = "smtp.gmail.com";

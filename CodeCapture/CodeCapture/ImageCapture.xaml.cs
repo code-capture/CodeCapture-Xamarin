@@ -40,9 +40,7 @@ namespace CodeCapture
             var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
                 SaveToAlbum = true,
-                //Directory = "Sample",
-                //Name = "test.jpg",
-                AllowCropping = false
+                AllowCropping = true
             });
 
             if (file == null)
@@ -55,7 +53,6 @@ namespace CodeCapture
             image.Source = ImageSource.FromStream(() =>
             {
                 var stream = file.GetStream();
-                file.Dispose();
                 return stream;
             });
         }
@@ -68,14 +65,14 @@ namespace CodeCapture
 
             if (!CrossMedia.Current.IsPickPhotoSupported)
             {
-                await DisplayAlert("Photos Not Supported",
-                           "Sorry! Permission not granted to photos.", "OK");
-                //return null;
+                await DisplayAlert("Photos Not Supported", "Sorry! Permission not granted to photos.", "OK");
+                return;
             }
 
             var file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new
                 Plugin.Media.Abstractions.PickMediaOptions
-            { });
+            { 
+            });
 
             //await DisplayAlert("File Location", file.Path, "OK");
 
@@ -87,7 +84,6 @@ namespace CodeCapture
             image.Source = ImageSource.FromStream(() =>
             {
                 var stream = file.GetStream();
-                file.Dispose();
                 return stream;
             });
         }
