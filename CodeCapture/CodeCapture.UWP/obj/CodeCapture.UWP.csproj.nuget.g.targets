@@ -18,6 +18,6 @@
     <Import Project="C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
     <Import Project="C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.8-rel-28605-00\build\Microsoft.Net.Native.Compiler.targets" Condition="Exists('C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.8-rel-28605-00\build\Microsoft.Net.Native.Compiler.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.10\build\Microsoft.NetCore.UniversalWindowsPlatform.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.10\build\Microsoft.NetCore.UniversalWindowsPlatform.targets')" />
-    <Import Project="D:\Microsoft\Xamarin\NuGet\xamarin.forms\4.5.0.495\build\Xamarin.Forms.targets" Condition="Exists('D:\Microsoft\Xamarin\NuGet\xamarin.forms\4.5.0.495\build\Xamarin.Forms.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\4.5.0.495\build\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\4.5.0.495\build\Xamarin.Forms.targets')" />
   </ImportGroup>
 </Project>

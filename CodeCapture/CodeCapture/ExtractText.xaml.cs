@@ -6,9 +6,6 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Net.Mail;
-using System.Net.Mime;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -101,7 +98,7 @@ namespace CodeCapture
 
         async Task DisplayTextAsync(string content)
         {
-            ReadModels.Root response = JsonConvert.DeserializeObject<ReadModels.Root>(content);
+            Models.ReadModels.Root response = JsonConvert.DeserializeObject<Models.ReadModels.Root>(content);
             foreach (var result in response.analyzeResult.readResults)
             {
                 foreach (var line in result.lines)
@@ -128,34 +125,40 @@ namespace CodeCapture
             await Navigation.PopModalAsync();
         }
 
-        private async void emailButton_Clicked(object sender, EventArgs e)
+        private async void compileButton_Clicked(object sender, EventArgs e)
         {
-            try
-            {
-                MailMessage mail = new MailMessage();
-                SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-
-                mail.From = new MailAddress("codecapture.sea@gmail.com");
-                mail.To.Add(email.Text);
-                mail.Subject = "CodeCapture Scan";
-                mail.Body = "Thanks for using CodeCapture.\nHere's your scan:\n\n"+extract;
-
-                Attachment data = new Attachment(FilePath, MediaTypeNames.Application.Octet);
-                mail.Attachments.Add(data);
-
-                SmtpServer.Port = 587;
-                SmtpServer.Host = "smtp.gmail.com";
-                SmtpServer.EnableSsl = true;
-                SmtpServer.UseDefaultCredentials = false;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("codecapture.sea@gmail.com", "CodeCapture245");
-
-                SmtpServer.Send(mail);
-                await DisplayAlert("Email Sent Succesfully!!!", "Please check your email" , "OK");
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Failed To Send Email", ex.Message, "OK");
-            }
+            await Navigation.PushModalAsync(new CompileCode(editor.Text, stdin.Text));
         }
+
+        /*        private async void emailButton_Clicked(object sender, EventArgs e)
+                {
+                    try
+                    {
+                        MailMessage mail = new MailMessage();
+                        SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
+
+                        mail.From = new MailAddress("codecapture.sea@gmail.com");
+                        mail.To.Add(email.Text);
+                        mail.Subject = "CodeCapture Scan";
+                        mail.Body = "Thanks for using CodeCapture.\nHere's your scan:\n\n"+extract;
+
+                        Attachment data = new Attachment(FilePath, MediaTypeNames.Application.Octet);
+                        mail.Attachments.Add(data);
+
+                        SmtpServer.Port = 587;
+                        SmtpServer.Host = "smtp.gmail.com";
+                        SmtpServer.EnableSsl = true;
+                        SmtpServer.UseDefaultCredentials = false;
+                        SmtpServer.Credentials = new System.Net.NetworkCredential("codecapture.sea@gmail.com", "CodeCapture245");
+
+                        SmtpServer.Send(mail);
+                        await DisplayAlert("Email Sent Succesfully!!!", "Please check your email" , "OK");
+                    }
+                    catch (Exception ex)
+                    {
+                        await DisplayAlert("Failed To Send Email", ex.Message, "OK");
+                    }
+                }
+        */
     }
 }

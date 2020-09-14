@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2Mwwn1C/iLxyW1wlD9VA++AgU/dxchtbUIWwlyaUcjeZbvtA9hIks7JGci2lFkp71rFIODJW+XeBtstiQ52tVA==",
+  "dgSpecHash": "KurZx6SblH5r3CQ23PKqGn5Q9is5MlY/k/Of5jZKX6Jd3gOFxw43iHnNcABcq8MrGU4PadI9ECPIrlqqDUecTg==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\CodeCapture.UWP.csproj",
   "expectedPackageFiles": [
@@ -32,8 +32,8 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\Aditya Oberai\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
     "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],
   "logs": []
 }

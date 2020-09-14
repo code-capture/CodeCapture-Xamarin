@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "E/rHAbi2RZQ8oE2tCJ1cvmg389Nv+40dGZsTi3MiNvTeBXaRuyQGtyaGafEnyUs/n3/quTXh9DOI933Mv/RVqQ==",
+  "dgSpecHash": "PuJu9Qd/0VZFREkLSAbq6Nq/sgLp4c8Ymp6LC9zyt7Vb+mRXP9zgYnL78UHB2xwDN5ssAllfiDRs1QFCxlKing==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aditya Oberai\\.nuget\\packages\\json.net\\1.0.23\\json.net.1.0.23.nupkg.sha512",
-    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Aditya Oberai\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Aditya Oberai\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W+rPbQX8GFb7QdwBkZfWf6WfDi7PaLomy1uItEtIOIsXhXuHlVBesRhN/9tOBvXrzLUwK7F2umutEkNNlWNnZQ==",
+  "dgSpecHash": "F8Uti+aCGS018IcLhGo/KKvESwRKrR72V8GxQmWhqj6HIuQl9W71uAra8uOldUkZo/0XkzRloCJ14+vNv1hYog==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.iOS\\CodeCapture.iOS.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,8 @@
     "C:\\Users\\Aditya Oberai\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\Aditya Oberai\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Aditya Oberai\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
   ],
   "logs": []
 }

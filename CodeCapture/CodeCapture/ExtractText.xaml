@@ -22,34 +22,51 @@
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"
                 Grid.Row="1"
-                Grid.RowSpan="10"
+                Grid.RowSpan="6"
                 Grid.Column="1"
                 Grid.ColumnSpan="3"/>
-            
+
+            <Label 
+                Text="STDIN"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title"
+                Grid.Row="7"
+                Grid.RowSpan="6"
+                Grid.Column="0"
+                Grid.ColumnSpan="5"/>
+
+            <Editor 
+                x:Name="stdin"
+                Placeholder="Enter STDIN here"
+                Text=""
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Grid.Row="8"
+                Grid.RowSpan="3"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"/>
+
             <Button 
                 x:Name="returnButton"
                 Text="Return"
                 Clicked="returnButton_ClickedAsync"
                 VerticalOptions="Start"
+                HorizontalOptions="FillAndExpand"
                 Grid.Row="12"
                 Grid.Column="0"
-                Grid.ColumnSpan="1"/>
-
-            <Entry 
-                x:Name="email"
-                Placeholder="Email Address"
-                VerticalOptions="Start"
-                Grid.Row="12"
-                Grid.Column="2"
-                Grid.ColumnSpan="2"/>
+                Grid.ColumnSpan="2"
+                Padding="10,10,10,10" />
 
             <Button 
-                x:Name="emailButton"
-                Text="Send" 
-                Clicked="emailButton_Clicked"
+                x:Name="compileButton"
+                Text="Compile" 
+                Clicked="compileButton_Clicked"
                 VerticalOptions="Start"
+                HorizontalOptions="FillAndExpand"
                 Grid.Row="12"
-                Grid.Column="4"/>
+                Grid.Column="3"
+                Grid.ColumnSpan="2"
+                Padding="10,10,10,10" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

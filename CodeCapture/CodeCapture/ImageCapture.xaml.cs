@@ -12,7 +12,7 @@ using System.Net.Http.Headers;
 using System.Linq;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
-using CodeCapture.ReadModels;
+using CodeCapture.Models.ReadModels;
 
 namespace CodeCapture
 {

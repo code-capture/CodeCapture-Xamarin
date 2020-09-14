@@ -14,3 +14,4 @@ D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\ob
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Debug\netstandard2.0\ref\CodeCapture.dll
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Debug\netstandard2.0\CodeCapture.pdb
 D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Debug\netstandard2.0\CodeCapture.csprojAssemblyReference.cache
+D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture\obj\Debug\netstandard2.0\CompileCode.xaml.g.cs
