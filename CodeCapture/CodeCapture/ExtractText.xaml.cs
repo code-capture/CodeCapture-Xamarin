@@ -15,7 +15,7 @@ namespace CodeCapture
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ExtractText : ContentPage
     {
-        string subscriptionKey = "ffc60f43d45049b185f8ab5c9b79c2d3";
+        string subscriptionKey = "14833532ba474f448d0c01e495d4ed28";
         string extract = "";
         string endpoint = "https://centralindia.api.cognitive.microsoft.com/";
         string FilePath;
