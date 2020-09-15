@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodeCapture.EmailResult">
+    <ContentPage.Content>
+        <Grid>
+            <Label 
+                Text="Email The Result"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title"
+                Grid.Row="0"
+                Grid.Column="1"
+                Grid.ColumnSpan="7"/>
+
+            <Editor 
+                x:Name="emailID"
+                Placeholder="Your Email Address"
+                Text=""
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Grid.Row="1"
+                Grid.RowSpan="1"
+                Grid.Column="1"
+                Grid.ColumnSpan="5"/>
+            <Editor 
+                x:Name="body"
+                Placeholder="Body Of Email"
+                Text=""
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                Grid.Row="2"
+                Grid.RowSpan="6"
+                Grid.Column="1"
+                Grid.ColumnSpan="5"/>
+            <Button 
+                x:Name="returnButton"
+                Text="Return"
+                Clicked="returnButton_Clicked"
+                Grid.Row="9"
+                Grid.Column="0"
+                Grid.ColumnSpan="3"/>
+
+            <Button 
+                x:Name="captureNewImageButton"
+                Text="Capture New Image" 
+                Clicked="captureNewImageButton_Clicked"
+                Grid.Row="9"
+                Grid.Column="6"
+                Grid.ColumnSpan="3"/>
+
+            <Button 
+                x:Name="emailButton"
+                Text="Email Result" 
+                Clicked="emailButton_Clicked"
+                Grid.Row="8"
+                Grid.Column="3"
+                Grid.ColumnSpan="3"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

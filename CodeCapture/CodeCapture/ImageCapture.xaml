@@ -53,28 +53,9 @@
                 Grid.Row="5"
                 Grid.Column="1"
                 Grid.ColumnSpan="3" HeightRequest="-1" Grid.RowSpan="2"/>
+            
             <Label Text="" 
-                   Grid.Row="5"
-                   Grid.Column="4"/>
-            <Picker 
-                x:Name="langPicker"  
-                Title="Language" 
-                TitleColor="Black"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="EndAndExpand"
-                Grid.Row="4"
-                Grid.Column="1"
-                Grid.ColumnSpan="3">
-                <Picker.ItemsSource>
-                    <x:Array 
-                        Type="{x:Type x:String}">
-                        <x:String>C++</x:String>
-                        <x:String>Java</x:String>
-                        <x:String>Python</x:String>
-                        <x:String>Text</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
+                   Grid.Row="5"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

@@ -9,20 +9,20 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
+using CodeCapture.Models;
+using CodeCapture.Models.CompileModels;
+
 
 namespace CodeCapture
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ExtractText : ContentPage
     {
-        string subscriptionKey = "14833532ba474f448d0c01e495d4ed28";
         string extract = "";
-        string endpoint = "https://centralindia.api.cognitive.microsoft.com/";
-        string FilePath;
         public ExtractText(string imagePath)
         {
             InitializeComponent();
-            FilePath = imagePath;
             ReadText(imagePath);
         }
 
@@ -32,8 +32,9 @@ namespace CodeCapture
         {
             try
             {
-                //await DisplayAlert("File Path", imageFilePath, "OK");
-                string uriBase = endpoint + "/vision/v3.0/read/analyze";
+                Models.Secrets secrets = new Models.Secrets();
+                string subscriptionKey = secrets.READ_subscriptionKey;
+                string uriBase = secrets.READ_endpoint + "/vision/v3.0/read/analyze";
                 await DisplayAlert("Start Read API", "Best Of Luck", "Thanks");
                 HttpClient client = new HttpClient();
 
@@ -62,7 +63,6 @@ namespace CodeCapture
                 else
                 {
                     string errorString = await response.Content.ReadAsStringAsync();
-                    //Debug.WriteLine("\n\nResponse:\n{0}\n", JToken.Parse(errorString).ToString(), "OK");
                     await DisplayAlert("\n\nResponse:\n{0}\n", JToken.Parse(errorString).ToString(), "OK");
                     return;
                 }
@@ -80,17 +80,14 @@ namespace CodeCapture
 
                 if (i == 60 && contentString.IndexOf("\"status\":\"succeeded\"") == -1)
                 {
-                    //Debug.WriteLine("\nTimeout error.\n","","OK");
                     await DisplayAlert("\nTimeout error.\n", "", "OK");
                     return;
                 }
 
-                //await DisplayAlert("JSON Response", JToken.Parse(contentString).ToString(), "OK");
                 await DisplayTextAsync(JObject.Parse(contentString).ToString());
             }
             catch (Exception e)
             {
-                //Debug.WriteLine("Error","\n" + e.Message,"OK");
                 await DisplayAlert("Error", "\n" + e.Message, "OK");
             }
         }
@@ -108,6 +105,7 @@ namespace CodeCapture
             }
             await DisplayAlert("Extracted Text", extract, "Show In Editor");
             editor.Text = extract;
+            await DisplayAlert("Special Instructions", "For C++:\n\nDon't forget to add: \n\t#include <iostream>\n\tusing namespace std;\n\nFor Java:\n\tMake sure the class is 'public'", "OK");
         }
 
         //Converts Image to Byte Array and return it
@@ -127,38 +125,36 @@ namespace CodeCapture
 
         private async void compileButton_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new CompileCode(editor.Text, stdin.Text));
+            string lang="", vers="";
+
+            if(string.Compare(langPicker.SelectedItem.ToString(), "C++ (GCC 9.1.0)")==0)
+            {
+                lang = "cpp";
+                vers = "4";
+            }
+
+            else if (string.Compare(langPicker.SelectedItem.ToString(), "Java (JDK 11.0.4)") == 0)
+            {
+                lang = "java";
+                vers = "3";
+            }
+            else if (string.Compare(langPicker.SelectedItem.ToString(), "JavaScript (Node v12.11.1)") == 0)
+            {
+                lang = "nodejs";
+                vers = "3";
+            }
+            else if (string.Compare(langPicker.SelectedItem.ToString(), "Python (v3.7.4)") == 0)
+            {
+                lang = "python3";
+                vers = "3";
+            }
+
+            if (Connectivity.NetworkAccess == NetworkAccess.None)
+            {
+                await DisplayAlert("No Network Available", "Please Connect To Your Wifi Or Turn on Mobile Data", "OK");
+            }
+
+            else await Navigation.PushModalAsync(new CompileCode(editor.Text, stdin.Text, lang, vers));
         }
-
-        /*        private async void emailButton_Clicked(object sender, EventArgs e)
-                {
-                    try
-                    {
-                        MailMessage mail = new MailMessage();
-                        SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-
-                        mail.From = new MailAddress("codecapture.sea@gmail.com");
-                        mail.To.Add(email.Text);
-                        mail.Subject = "CodeCapture Scan";
-                        mail.Body = "Thanks for using CodeCapture.\nHere's your scan:\n\n"+extract;
-
-                        Attachment data = new Attachment(FilePath, MediaTypeNames.Application.Octet);
-                        mail.Attachments.Add(data);
-
-                        SmtpServer.Port = 587;
-                        SmtpServer.Host = "smtp.gmail.com";
-                        SmtpServer.EnableSsl = true;
-                        SmtpServer.UseDefaultCredentials = false;
-                        SmtpServer.Credentials = new System.Net.NetworkCredential("codecapture.sea@gmail.com", "CodeCapture245");
-
-                        SmtpServer.Send(mail);
-                        await DisplayAlert("Email Sent Succesfully!!!", "Please check your email" , "OK");
-                    }
-                    catch (Exception ex)
-                    {
-                        await DisplayAlert("Failed To Send Email", ex.Message, "OK");
-                    }
-                }
-        */
     }
 }

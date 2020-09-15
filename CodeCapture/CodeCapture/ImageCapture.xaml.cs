@@ -48,8 +48,6 @@ namespace CodeCapture
 
             imagePath = file.Path;
 
-            //await DisplayAlert("File Location", file.Path, "OK");
-
             image.Source = ImageSource.FromStream(() =>
             {
                 var stream = file.GetStream();
@@ -60,7 +58,6 @@ namespace CodeCapture
         //Selects images from the user's device
         private async void selectImage_Clicked(object sender, EventArgs e)
         {
-            //Debug.WriteLine("Select The Image Button Works!!!");
             await CrossMedia.Current.Initialize();
 
             if (!CrossMedia.Current.IsPickPhotoSupported)
@@ -73,8 +70,6 @@ namespace CodeCapture
                 Plugin.Media.Abstractions.PickMediaOptions
             { 
             });
-
-            //await DisplayAlert("File Location", file.Path, "OK");
 
             if (file == null)
                 return;
@@ -91,20 +86,11 @@ namespace CodeCapture
         //Sends the image to the Read API for the text to be extracted
         private async void extractText_Clicked(object sender, EventArgs e)
         {
-            if (langPicker.SelectedItem == null)
-            {
-                await DisplayAlert("Language Not Selected!!!", "Go Pick A Language!!!", "OK");
-                return;
-            }
-
             if (Connectivity.NetworkAccess == NetworkAccess.None)
             {
                 await DisplayAlert("No Network Available", "Please Connect To Your Wifi Or Turn on Mobile Data", "OK");
             }
-
-            //await DisplayAlert("Send To CodeSpace Button Works!!!","Function To Be Built Yet\n\nLanguage Selected => "+langPicker.SelectedItem,"OK");
-            //ExtractText = new NavigationPage(new CodeCapture.ExtractText(imagePath));
-            await Navigation.PushModalAsync(new ExtractText(imagePath));
+            else await Navigation.PushModalAsync(new ExtractText(imagePath));
         }
         
     }

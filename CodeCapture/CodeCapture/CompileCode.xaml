@@ -9,9 +9,8 @@
                 HorizontalOptions="CenterAndExpand"
                 FontSize="Title"
                 Grid.Row="0"
-                Grid.RowSpan="6"
                 Grid.Column="0"
-                Grid.ColumnSpan="5"/>
+                Grid.ColumnSpan="7"/>
 
             <Editor 
                 x:Name="editor"
@@ -19,9 +18,34 @@
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"
                 Grid.Row="1"
-                Grid.RowSpan="10"
+                Grid.RowSpan="7"
                 Grid.Column="1"
-                Grid.ColumnSpan="3"/>
+                Grid.ColumnSpan="6"/>
+
+            <Button 
+                x:Name="returnButton"
+                Text="Return"
+                Clicked="returnButton_Clicked"
+                Grid.Row="8"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"/>
+            
+            <Button 
+                x:Name="captureNewImageButton"
+                Text="Capture New Image" 
+                Clicked="captureNewImageButton_Clicked"
+                Grid.Row="8"
+                Grid.Column="3"
+                Grid.ColumnSpan="2"/>
+
+            <Button 
+                x:Name="emailButton"
+                Text="Email Result" 
+                Clicked="emailButton_Clicked"
+                Grid.Row="8"
+                Grid.Column="6"
+                Grid.ColumnSpan="2"/>
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>

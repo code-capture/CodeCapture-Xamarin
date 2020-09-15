@@ -9,33 +9,43 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using CodeCapture.Models;
 using CodeCapture.Models.CompileModels;
+using Xamarin.Essentials;
 
 namespace CodeCapture
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CompileCode : ContentPage
     {
-        public CompileCode(string code, string stdin)
+        public string saveCode = "";
+        public string saveStdin = "";
+        public string result = "";
+        public CompileCode(string code, string Stdin, string lang, string vers)
         {
             InitializeComponent();
-            compile(code, stdin);
+            saveCode = code;
+            saveStdin = Stdin;
+            compile(code, Stdin, lang, vers);
         }
 
-        public async void compile(string code, string stdin)
+        //Compile the code using JDoodle API
+        public async void compile(string code, string Stdin, string lang, string vers)
         {
             string contentString;
+            Models.Secrets secrets = new Models.Secrets();
             Models.CompileModels.Input input = new Models.CompileModels.Input()
             {
-                clientId = "1818dc6a88b6566b8086e3d9f9c8eea3",
-                clientSecret = "b3403af090e64ac8a18ed627d65736d14055a5d10f914688408e74d5f30039f4",
+                clientId = secrets.JDOODLE_clientId,
+                clientSecret = secrets.JDOODLE_clientSecret,
                 script = code,
-                stdin = stdin,
-                language="java",
-                versionIndex = "0",
+                stdin = Stdin,
+                language = lang,
+                versionIndex = vers,
             };
             HttpClient client = new HttpClient();
             string Url = "https://api.jdoodle.com/execute";
+            
             var response = await client.PostAsync(Url,new StringContent(JsonConvert.SerializeObject(input),Encoding.UTF8, "application/json"));
 
             if (response.IsSuccessStatusCode)
@@ -49,9 +59,29 @@ namespace CodeCapture
         async Task DisplayTextAsync(string content)
         {
             Models.CompileModels.Output output = JsonConvert.DeserializeObject<Models.CompileModels.Output>(content);
-            String result = output.output;
+            result = output.output;
             await DisplayAlert("Compiled Code", result, "Show In Editor");
             editor.Text = result;
+        }
+
+        private async void returnButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
+
+        private async void captureNewImageButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
+            //Does not work on Windows
+        }
+
+        private async void emailButton_Clicked(object sender, EventArgs e)
+        {
+            if (Connectivity.NetworkAccess == NetworkAccess.None)
+            {
+                await DisplayAlert("No Network Available", "Please Connect To Your Wifi Or Turn on Mobile Data", "OK");
+            }
+            else await Navigation.PushModalAsync(new EmailResult(saveCode, saveStdin, result));
         }
     }
 }
