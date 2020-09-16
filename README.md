@@ -1,13 +1,13 @@
 # CodeCapture
 
-![CodeCapture-Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CodeCapture-Banner-JPG.jpg/1024px-CodeCapture-Banner-JPG.jpg)
+![CodeCapture-Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CodeCapture-Banner-JPG.jpg/640px-CodeCapture-Banner-JPG.jpg)
 
 
 ## Description
 
 **CodeCapture** is a Xamarin.Forms application that captures (clicks using the device Camera or selects from the device storage) a picture of hand-written/printed code (Java, C++, Python, or JavaScript), extracts the text from it using the Azure Computer Vision Read API, compiles it and returns the result using the JDoodle Compiler API, and allows the user to email the code, standard input, and result to any email address of their preference.
 
-*Check out the video and Android APK (for testing) here:* [Google Drive link](https://drive.google.com/drive/folders/1nkz-8a8OvJKpM05ej2vobq-pSdREJLJH?usp=sharing) 
+*Check out the demo video and Android APK (for testing) here:* [Google Drive link](https://drive.google.com/drive/folders/1nkz-8a8OvJKpM05ej2vobq-pSdREJLJH?usp=sharing) 
  
 
 ## Inspiration
@@ -25,8 +25,7 @@ The following **NuGet** packages are necessary to build and run this project:
 
 * [NETStandard.Library](https://www.nuget.org/packages/NETStandard.Library/2.0.3?_src=template)
 
-* [Microsoft.NETCore.UniversalWindowsPlatform](https://www.nuget.org/packages/Microsoft.NETCore.
-UniversalWindowsPlatform/6.2.10?_src=template)
+* [Microsoft.NETCore.UniversalWindowsPlatform](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform/6.2.10?_src=template)
 
 * [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/12.0.3?_src=template)
 
