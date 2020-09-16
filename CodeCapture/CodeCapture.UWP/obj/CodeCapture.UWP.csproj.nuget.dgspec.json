@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\CodeCapture.UWP.csproj": {}
+    "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\CodeCapture.UWP.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\CodeCapture.UWP.csproj": {
+    "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\CodeCapture.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\CodeCapture.UWP.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\CodeCapture.UWP.csproj",
         "projectName": "CodeCapture.UWP",
-        "projectPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\CodeCapture.UWP.csproj",
+        "projectPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\CodeCapture.UWP.csproj",
         "packagesPath": "C:\\Users\\Aditya Oberai\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\obj\\",
+        "outputPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj": {
-                "projectPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj"
+              "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj": {
+                "projectPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj"
               }
             }
           }
@@ -43,10 +43,6 @@
       "frameworks": {
         "uap10.0.16299": {
           "dependencies": {
-            "Json.Net": {
-              "target": "Package",
-              "version": "[1.0.23, )"
-            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.10, )"
@@ -61,7 +57,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.495, )"
+              "version": "[4.8.0.1364, )"
             }
           },
           "imports": [
@@ -95,14 +91,14 @@
         }
       }
     },
-    "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj": {
+    "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj",
+        "projectUniqueName": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj",
         "projectName": "CodeCapture",
-        "projectPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj",
+        "projectPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture.csproj",
         "packagesPath": "C:\\Users\\Aditya Oberai\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\CodeCapture\\obj\\",
+        "outputPath": "D:\\Visual Studio\\source\\repos\\CodeCapture\\CodeCapture\\CodeCapture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -134,10 +130,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "Json.Net": {
-              "target": "Package",
-              "version": "[1.0.23, )"
-            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.10, )"
@@ -162,7 +154,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.495, )"
+              "version": "[4.8.0.1364, )"
             }
           },
           "imports": [
