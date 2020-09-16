@@ -7,13 +7,23 @@
              x:Class="CodeCapture.ImageCapture">
     <ContentPage.Content>
         <Grid>
+            <Label 
+                Text="Capture An Image"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title"
+                Grid.Row="0"
+                Grid.RowSpan="1"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"/>
+            
             <Image
-                   x:Name="image"
-                   Source=""
-                   Grid.Row="1"
-                   Grid.RowSpan="3"
-                   Grid.Column="1"
-                   Grid.ColumnSpan="3"/>
+                x:Name="image"
+                Source=""
+                Grid.Row="1"
+                Grid.RowSpan="3"
+                Grid.Column="1"
+                Grid.ColumnSpan="3"/>
+            
             <Button
                 x:Name="clickImage"
                 Text="Click an Image"
@@ -27,6 +37,7 @@
                 Grid.Row="5"
                 Grid.Column="0"
                 Grid.ColumnSpan="2"/>
+            
             <Button
                 x:Name="selectImage"
                 Text="Select an Image"
@@ -40,6 +51,7 @@
                 Grid.Row="5"
                 Grid.Column="3"
                 Grid.ColumnSpan="2"/>
+            
             <Button
                 x:Name="extractText"
                 Text="Extract Text"

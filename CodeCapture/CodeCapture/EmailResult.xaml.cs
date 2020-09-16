@@ -23,8 +23,8 @@ namespace CodeCapture
         }
         private async void captureNewImageButton_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PopToRootAsync();
-            //Does not work on Windows
+            var captureimage = new ImageCapture();
+            await Navigation.PushModalAsync(captureimage);
         }
 
         private async void emailButton_Clicked(object sender, EventArgs e)
