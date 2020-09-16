@@ -33,3 +33,18 @@ The following **NuGet** packages are necessary to build and run this project:
 * [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/12.0.3?_src=template)
 
 * [Xam.Plugin.Media](https://www.nuget.org/packages/Xam.Plugin.Media/5.0.1?_src=template)
+
+
+## Steps To Run
+
+Please follow the following steps to run the project in **Visual Studio 2019**
+
+1. Clone the repository to a location of your preference
+
+2. Open the project in Visual Studio 2019 by clicking on **CodeCapture.sln**
+
+3. Install all the dependencies mentioned above using the **NuGet Package Manager** 
+
+4. Build the project
+ 
+5. Run and enjoy :)
