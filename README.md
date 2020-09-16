@@ -7,7 +7,10 @@
 
 **CodeCapture** is a Xamarin.Forms application that captures (clicks using the device Camera or selects from the device storage) a picture of hand-written/printed code (Java, C++, Python, or JavaScript), extracts the text from it using the Azure Computer Vision Read API, compiles it and returns the result using the JDoodle Compiler API, and allows the user to email the code, standard input, and result to any email address of their preference.
 
-*Check out the demo video and Android APK (for testing) here:* [Google Drive link](https://drive.google.com/drive/folders/1nkz-8a8OvJKpM05ej2vobq-pSdREJLJH?usp=sharing) 
+
+* Check out the [demo video](https://drive.google.com/file/d/1DcOOoLNKLJDhfVcw4a8cRhlgX1Ls16m5/view?usp=sharing)
+
+* Download the [Android APK (for testing)](https://drive.google.com/file/d/10sGT82si_TRWNH7rk4pth5CK-Ep6YfRu/view?usp=sharing)
  
 
 ## Inspiration
