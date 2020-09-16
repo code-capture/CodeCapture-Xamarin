@@ -34,7 +34,7 @@ namespace CodeCapture
                 Models.Secrets secrets = new Models.Secrets();
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-                mail.From = new MailAddress("codecapture.sea@gmail.com");
+                mail.From = new MailAddress(secrets.EMAIl_address);
                 mail.To.Add(emailID.Text);
                 mail.Subject = "CodeCapture Scan";
                 mail.Body = body.Text;
@@ -42,7 +42,7 @@ namespace CodeCapture
                 SmtpServer.Host = "smtp.gmail.com";
                 SmtpServer.EnableSsl = true;
                 SmtpServer.UseDefaultCredentials = false;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("codecapture.sea@gmail.com", secrets.EMAIL_password);
+                SmtpServer.Credentials = new System.Net.NetworkCredential(secrets.EMAIl_address, secrets.EMAIL_password);
                 SmtpServer.Send(mail);
                 await DisplayAlert("Email Sent Succesfully!!!", "Please check your email", "OK");
             }
