@@ -1,6 +1,6 @@
 # CodeCapture
 
-![CodeCapture-Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CodeCapture-Banner-JPG.jpg/640px-CodeCapture-Banner-JPG.jpg)
+![CodeCapture-Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CodeCapture-Banner-JPG.jpg/1024px-CodeCapture-Banner-JPG.jpg)
 
 
 ## Description
