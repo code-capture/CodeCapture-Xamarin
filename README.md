@@ -45,6 +45,22 @@ Please follow the following steps to run the project in **Visual Studio 2019**
 
 3. Install all the dependencies mentioned above using the **NuGet Package Manager** 
 
-4. Build the project
+4. Go to the location **../CodeCapture/CodeCapture/Models** and create a **Secrets.cs** file based on the template in the **Secrets.MD** file
+   (For more information on how to create the resources for Azure Computer Vision Read API and JDoodle Compiler API, scroll below)
+
+5. Build the project
  
-5. Run and enjoy :)
+6. Run and enjoy :)
+
+
+## Setting Up The APIs
+
+* In order to learn how to set up the **Azure Computer Vision** resource, please do visit the following link: [Resource Set-up Quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account?tabs=singleservice%2Cwindows)
+
+*Note: Since we have the **Secrets.cs** file, you will not need to create an Environment Variable separately*
+
+If you are a full-time student, you can avail the [Azure For Students](https://aka.ms/a4s) offer and receive $100 worth of Azure credits as well as various free developer tools
+
+* In order to set up your credentials for the **JDoodle Compiler API**, please visit the following link: [Compiler API](https://www.jdoodle.com/compiler-api/)
+
+You can view the [JDoodle Compiler API Documentation](https://docs.jdoodle.com/compiler-api/compiler-api) to understand how the API works so that you can tweak the app for your personal work too
