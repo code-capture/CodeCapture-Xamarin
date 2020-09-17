@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=66047c87-bfde-4ba3-abee-151d086e9d7e</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>264153927879C915F5C585054838D570634E75AB442B209AA5050A6C8FBE1D5E</RegisteredManifestChecksum>
+    <LayoutDir>D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>DF6BA8334526AB1CE9C757E104134B1A1486FC14F9CD59EE5280607779283903</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d95a89e8-ef73-4fb8-86a1-99b637d5b896_1.0.0.0_x86__p4xans973vahj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d95a89e8-ef73-4fb8-86a1-99b637d5b896_p4xans973vahj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d95a89e8-ef73-4fb8-86a1-99b637d5b896</RegisteredPackageID>
@@ -27,220 +27,220 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-16T05:11:14.423</Modified>
+      <Modified>2020-09-17T08:26:23.099</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.128</Modified>
+      <Modified>2020-09-16T09:48:59.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.128</Modified>
+      <Modified>2020-09-16T09:48:59.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.129</Modified>
+      <Modified>2020-09-16T09:48:59.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.129</Modified>
+      <Modified>2020-09-16T09:48:59.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.130</Modified>
+      <Modified>2020-09-16T09:48:59.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.130</Modified>
+      <Modified>2020-09-16T09:48:59.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.131</Modified>
+      <Modified>2020-09-16T09:48:59.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.131</Modified>
+      <Modified>2020-09-16T09:48:59.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.132</Modified>
+      <Modified>2020-09-16T09:48:59.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.132</Modified>
+      <Modified>2020-09-16T09:48:59.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.133</Modified>
+      <Modified>2020-09-16T09:48:59.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.133</Modified>
+      <Modified>2020-09-16T09:48:59.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.133</Modified>
+      <Modified>2020-09-16T09:48:59.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.134</Modified>
+      <Modified>2020-09-16T09:48:59.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.134</Modified>
+      <Modified>2020-09-16T09:48:59.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.135</Modified>
+      <Modified>2020-09-16T09:48:59.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.135</Modified>
+      <Modified>2020-09-16T09:48:59.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.135</Modified>
+      <Modified>2020-09-16T09:48:59.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.136</Modified>
+      <Modified>2020-09-16T09:48:59.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.136</Modified>
+      <Modified>2020-09-16T09:48:59.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.137</Modified>
+      <Modified>2020-09-16T09:48:59.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.137</Modified>
+      <Modified>2020-09-16T09:48:59.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.138</Modified>
+      <Modified>2020-09-16T09:48:59.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.138</Modified>
+      <Modified>2020-09-16T09:48:59.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.138</Modified>
+      <Modified>2020-09-16T09:48:59.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.139</Modified>
+      <Modified>2020-09-16T09:48:59.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T06:29:02.139</Modified>
+      <Modified>2020-09-16T09:48:59.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
       <Modified>2020-02-27T13:45:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\CodeCapture.UWP.dll">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\CodeCapture.UWP.dll">
       <PackagePath>CodeCapture.UWP.dll</PackagePath>
-      <Modified>2020-09-16T05:11:12.214</Modified>
+      <Modified>2020-09-17T08:26:20.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\CodeCapture.UWP.exe">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\CodeCapture.UWP.exe">
       <PackagePath>CodeCapture.UWP.exe</PackagePath>
-      <Modified>2020-09-16T05:11:14.381</Modified>
+      <Modified>2020-09-17T08:26:23.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\CodeCapture.UWP.pdb">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\CodeCapture.UWP.pdb">
       <PackagePath>CodeCapture.UWP.pdb</PackagePath>
-      <Modified>2020-09-16T05:11:14.376</Modified>
+      <Modified>2020-09-17T08:26:23.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-29T21:28:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-11-29T21:28:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="D:\Visual Studio\source\repos\CodeCapture\CodeCapture\CodeCapture.UWP\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-16T05:09:35.652</Modified>
+      <Modified>2020-09-17T08:24:41.101</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
-      <Name>Microsoft.UI.Xaml.2.3</Name>
-      <Version>2.31912.11002.0</Version>
+    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42005.18002.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
-      <Name>Microsoft.UI.Xaml.2.3</Name>
-      <Version>2.31912.11002.0</Version>
+    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42005.18002.0</Version>
       <Architecture>Win32</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx">
-      <Name>Microsoft.UI.Xaml.2.3</Name>
-      <Version>2.31912.11002.0</Version>
+    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42005.18002.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx">
-      <Name>Microsoft.UI.Xaml.2.3</Name>
-      <Version>2.31912.11002.0</Version>
+    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42005.18002.0</Version>
       <Architecture>arm</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx">
-      <Name>Microsoft.UI.Xaml.2.3</Name>
-      <Version>2.31912.11002.0</Version>
+    <ResolvedSDKReference Include="C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
+      <Name>Microsoft.UI.Xaml.2.4</Name>
+      <Version>2.42005.18002.0</Version>
       <Architecture>arm64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Aditya Oberai\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

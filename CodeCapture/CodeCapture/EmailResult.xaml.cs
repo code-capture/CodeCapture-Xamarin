@@ -19,7 +19,7 @@ namespace CodeCapture
         {
             InitializeComponent();
 
-            body.Text = "Thanks for using CodeCapture.\n\nThe Code you scanned was:\n\n" + code + "\n\nYour Standard Input was:\n\n" + stdin + "\n\nThe Result you got was:\n\n" +result;
+            body.Text = "Thanks for using CodeCapture.\n\n-----\n\nThe Code you scanned was:\n\n" + code + "\n\n-----\n\nYour Standard Input was:\n\n" + stdin + "\n\n-----\n\nThe Result you got was:\n\n" + result;
         }
         private async void captureNewImageButton_Clicked(object sender, EventArgs e)
         {
@@ -34,7 +34,7 @@ namespace CodeCapture
                 Models.Secrets secrets = new Models.Secrets();
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-                mail.From = new MailAddress(secrets.EMAIl_address);
+                mail.From = new MailAddress(secrets.EMAIL_address);
                 mail.To.Add(emailID.Text);
                 mail.Subject = "CodeCapture Scan";
                 mail.Body = body.Text;
@@ -42,13 +42,13 @@ namespace CodeCapture
                 SmtpServer.Host = "smtp.gmail.com";
                 SmtpServer.EnableSsl = true;
                 SmtpServer.UseDefaultCredentials = false;
-                SmtpServer.Credentials = new System.Net.NetworkCredential(secrets.EMAIl_address, secrets.EMAIL_password);
+                SmtpServer.Credentials = new System.Net.NetworkCredential(secrets.EMAIL_address, secrets.EMAIL_password);
                 SmtpServer.Send(mail);
-                await DisplayAlert("Email Sent Succesfully!!!", "Please check your email", "OK");
+                await DisplayAlert("Email Sent Succesfully", "", "OK");
             }
-            catch (Exception ex)
+            catch (Exception err)
             {
-                await DisplayAlert("Failed To Send Email", ex.Message, "OK");
+                await DisplayAlert("Failed To Send Email", err.Message, "OK");
             }
         }
 

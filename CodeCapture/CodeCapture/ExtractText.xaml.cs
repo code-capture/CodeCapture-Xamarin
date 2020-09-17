@@ -12,7 +12,7 @@ using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 using CodeCapture.Models;
 using CodeCapture.Models.CompileModels;
-
+using System.Diagnostics;
 
 namespace CodeCapture
 {
@@ -35,7 +35,9 @@ namespace CodeCapture
                 Models.Secrets secrets = new Models.Secrets();
                 string subscriptionKey = secrets.READ_subscriptionKey;
                 string uriBase = secrets.READ_endpoint + "/vision/v3.0/read/analyze";
-                await DisplayAlert("Start Read API", "Best Of Luck", "Thanks");
+                
+                //await DisplayAlert("Start Read API", "Best Of Luck", "Thanks");
+                
                 HttpClient client = new HttpClient();
 
                 client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", subscriptionKey);
@@ -57,7 +59,7 @@ namespace CodeCapture
 
                 if (response.IsSuccessStatusCode)
                 {
-                    await DisplayAlert("POST Request Successful", "", "OK");
+                    //await DisplayAlert("POST Request Successful", "", "OK");
                     operationLocation = response.Headers.GetValues("Operation-Location").FirstOrDefault();
                 }
                 else
@@ -105,7 +107,7 @@ namespace CodeCapture
             }
             await DisplayAlert("Extracted Text", extract, "Show In Editor");
             editor.Text = extract;
-            await DisplayAlert("Special Instructions", "For C++:\n\nDon't forget to add: \n\t#include <iostream>\n\tusing namespace std;\n\nFor Java:\n\tMake sure the class is 'public'", "OK");
+            await DisplayAlert("Special Instructions", "For C++:\n\n\tDon't forget to add: \n\t\t#include <iostream>\n\t\tusing namespace std;\n\nFor Java:\n\t\tMake sure the class is 'public'", "OK");
         }
 
         //Converts Image to Byte Array and return it
@@ -125,36 +127,43 @@ namespace CodeCapture
 
         private async void compileButton_Clicked(object sender, EventArgs e)
         {
-            string lang="", vers="";
+            string lang = "", vers = "";
 
-            if(string.Compare(langPicker.SelectedItem.ToString(), "C++ (GCC 9.1.0)")==0)
+            if(langPicker.SelectedItem!=null)
             {
-                lang = "cpp";
-                vers = "4";
-            }
+                if (string.Compare(langPicker.SelectedItem.ToString(), "C++ (GCC 9.1.0)") == 0)
+                {
+                    lang = "cpp";
+                    vers = "4";
+                }
 
-            else if (string.Compare(langPicker.SelectedItem.ToString(), "Java (JDK 11.0.4)") == 0)
-            {
-                lang = "java";
-                vers = "3";
-            }
-            else if (string.Compare(langPicker.SelectedItem.ToString(), "JavaScript (Node v12.11.1)") == 0)
-            {
-                lang = "nodejs";
-                vers = "3";
-            }
-            else if (string.Compare(langPicker.SelectedItem.ToString(), "Python (v3.7.4)") == 0)
-            {
-                lang = "python3";
-                vers = "3";
-            }
+                else if (string.Compare(langPicker.SelectedItem.ToString(), "Java (JDK 11.0.4)") == 0)
+                {
+                    lang = "java";
+                    vers = "3";
+                }
+                else if (string.Compare(langPicker.SelectedItem.ToString(), "JavaScript (Node v12.11.1)") == 0)
+                {
+                    lang = "nodejs";
+                    vers = "3";
+                }
+                else if (string.Compare(langPicker.SelectedItem.ToString(), "Python (v3.7.4)") == 0)
+                {
+                    lang = "python3";
+                    vers = "3";
+                }
 
-            if (Connectivity.NetworkAccess == NetworkAccess.None)
-            {
-                await DisplayAlert("No Network Available", "Please Connect To Your Wifi Or Turn on Mobile Data", "OK");
-            }
+                if (Connectivity.NetworkAccess == NetworkAccess.None)
+                {
+                    await DisplayAlert("No Network Available", "Please Connect To Your Wifi Or Turn on Mobile Data", "OK");
+                }
 
-            else await Navigation.PushModalAsync(new CompileCode(editor.Text, stdin.Text, lang, vers));
+                else await Navigation.PushModalAsync(new CompileCode(editor.Text, stdin.Text, lang, vers));
+            }
+            else
+            {
+                await DisplayAlert("Please select a language","", "OK");
+            }
         }
     }
 }

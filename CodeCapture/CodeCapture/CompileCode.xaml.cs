@@ -12,6 +12,7 @@ using Newtonsoft.Json.Linq;
 using CodeCapture.Models;
 using CodeCapture.Models.CompileModels;
 using Xamarin.Essentials;
+using System.Diagnostics;
 
 namespace CodeCapture
 {
@@ -50,10 +51,11 @@ namespace CodeCapture
 
             if (response.IsSuccessStatusCode)
             {
-                await DisplayAlert("POST Request Successful", "", "OK");
+                //await DisplayAlert("POST Request Successful", "", "OK");
                 contentString = await response.Content.ReadAsStringAsync();
                 await DisplayTextAsync(JObject.Parse(contentString).ToString());
             }
+            else await DisplayAlert("POST Request Failed", "", "OK");
         }
 
         async Task DisplayTextAsync(string content)

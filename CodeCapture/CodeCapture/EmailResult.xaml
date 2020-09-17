@@ -21,7 +21,7 @@
                 Grid.Row="1"
                 Grid.RowSpan="1"
                 Grid.Column="1"
-                Grid.ColumnSpan="5"/>
+                Grid.ColumnSpan="7"/>
             <Editor 
                 x:Name="body"
                 Placeholder="Body Of Email"
@@ -31,30 +31,45 @@
                 Grid.Row="2"
                 Grid.RowSpan="6"
                 Grid.Column="1"
-                Grid.ColumnSpan="5"/>
+                Grid.ColumnSpan="7"/>
             <Button 
                 x:Name="returnButton"
                 Text="Return"
+                BackgroundColor="MediumAquamarine"
+                BorderColor="Black"
+                BorderWidth="1.5"
                 Clicked="returnButton_Clicked"
                 Grid.Row="9"
+                Grid.RowSpan="2"
                 Grid.Column="0"
-                Grid.ColumnSpan="3"/>
+                Grid.ColumnSpan="3"
+                Margin="10,10,10,10"/>
 
             <Button 
                 x:Name="captureNewImageButton"
                 Text="Capture New Image" 
+                BackgroundColor="MediumAquamarine"
+                BorderColor="Black"
+                BorderWidth="1.5"
                 Clicked="captureNewImageButton_Clicked"
                 Grid.Row="9"
+                Grid.RowSpan="2"
                 Grid.Column="6"
-                Grid.ColumnSpan="3"/>
+                Grid.ColumnSpan="3"
+                Margin="10,10,10,10"/>
 
             <Button 
                 x:Name="emailButton"
                 Text="Email Result" 
+                BackgroundColor="#7F0DFF00"
+                BorderColor="Black"
+                BorderWidth="1.5"
                 Clicked="emailButton_Clicked"
                 Grid.Row="8"
+                Grid.RowSpan="2"
                 Grid.Column="3"
-                Grid.ColumnSpan="3"/>
+                Grid.ColumnSpan="3"
+                Margin="10,10,10,10"/>
 
         </Grid>
     </ContentPage.Content>

@@ -18,7 +18,7 @@
             
             <Editor 
                 x:Name="editor"
-                Text="Loading Data..."
+                Text="Waiting For Extracted Code..."
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"
                 Grid.Row="1"
@@ -27,11 +27,10 @@
                 Grid.ColumnSpan="3"/>
 
             <Label 
-                Text="STDIN"
+                Text="Standard Input"
                 HorizontalOptions="CenterAndExpand"
                 FontSize="Title"
                 Grid.Row="7"
-                Grid.RowSpan="6"
                 Grid.Column="0"
                 Grid.ColumnSpan="5"/>
 
@@ -49,24 +48,30 @@
             <Button 
                 x:Name="returnButton"
                 Text="Return"
+                BackgroundColor="MediumAquamarine"
+                BorderColor="Black"
+                BorderWidth="1.5"
                 Clicked="returnButton_ClickedAsync"
                 VerticalOptions="EndAndExpand"
                 HorizontalOptions="FillAndExpand"
                 Grid.Row="14"
                 Grid.Column="0"
                 Grid.ColumnSpan="2"
-                Padding="10,10,10,10" />
+                Margin="10,0,0,0" />
 
             <Button 
                 x:Name="compileButton"
                 Text="Compile" 
+                BackgroundColor="#7F0DFF00"
+                BorderColor="Black"
+                BorderWidth="1.5"
                 Clicked="compileButton_Clicked"
                 VerticalOptions="EndAndExpand"
                 HorizontalOptions="FillAndExpand"
                 Grid.Row="14"
                 Grid.Column="3"
                 Grid.ColumnSpan="2"
-                Padding="10,10,10,10" />
+                Margin="0,0,10,0" />
             
             <Picker 
                 x:Name="langPicker"  
