@@ -57,10 +57,10 @@ Please follow the following steps to run the project in **Visual Studio 2019**
 
 * In order to learn how to set up the **Azure Computer Vision** resource, please do visit the following link: [Resource Set-up Quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account?tabs=singleservice%2Cwindows)
 
-*Note: Since we have the **Secrets.cs** file, you will not need to create an Environment Variable separately*
+*Note: Since we have the **Secrets.cs** file, you will not need to create an Environment Variable (as specified in the Quickstart) separately*
 
 If you are a full-time student, you can avail the [Azure For Students](https://aka.ms/a4s) offer and receive $100 worth of Azure credits as well as various free developer tools
 
 * In order to set up your credentials for the **JDoodle Compiler API**, please visit the following link: [Compiler API](https://www.jdoodle.com/compiler-api/)
 
-You can view the [JDoodle Compiler API Documentation](https://docs.jdoodle.com/compiler-api/compiler-api) to understand how the API works so that you can tweak the app for your personal work too
+You can view the [JDoodle Compiler API Documentation](https://docs.jdoodle.com/compiler-api/compiler-api) to understand how the API works so that you can tweak the app for your personal purposes too
