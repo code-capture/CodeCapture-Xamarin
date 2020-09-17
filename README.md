@@ -26,13 +26,13 @@ The following **NuGet** packages are necessary to build and run this project:
 
 * [Xamarin.Essentials](https://www.nuget.org/packages/Xamarin.Essentials/1.5.3.2?_src=template)
 
-* [NETStandard.Library](https://www.nuget.org/packages/NETStandard.Library/2.0.3?_src=template)
-
 * [Microsoft.NETCore.UniversalWindowsPlatform](https://www.nuget.org/packages/Microsoft.NETCore.UniversalWindowsPlatform/6.2.10?_src=template)
 
 * [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/12.0.3?_src=template)
 
 * [Xam.Plugin.Media](https://www.nuget.org/packages/Xam.Plugin.Media/5.0.1?_src=template)
+
+* [NETStandard.Library (SDK)](https://www.nuget.org/packages/NETStandard.Library/2.0.3?_src=template)
 
 
 ## Steps To Run
@@ -45,7 +45,7 @@ Please follow the following steps to run the project in **Visual Studio 2019**
 
 3. Install all the dependencies mentioned above using the **NuGet Package Manager** 
 
-4. Go to the location **../CodeCapture/CodeCapture/Models** and create a **Secrets.cs** file based on the template in the **Secrets.MD** file
+4. Go to the location **../CodeCapture/CodeCapture/Models** and create a **Secrets.cs** file based on the template in the **Readme.md** file
    (For more information on how to create the resources for Azure Computer Vision Read API and JDoodle Compiler API, scroll below)
 
 5. Build the project
@@ -59,8 +59,8 @@ Please follow the following steps to run the project in **Visual Studio 2019**
 
 *Note: Since we have the **Secrets.cs** file, you will not need to create an Environment Variable (as specified in the Quickstart) separately*
 
-If you are a full-time student, you can avail the [Azure For Students](https://aka.ms/a4s) offer and receive $100 worth of Azure credits as well as various free developer tools
+If you are a **full-time student**, you can avail the [Azure For Students](https://aka.ms/a4s) offer and receive **$100 worth of Azure credits** as well as various free developer tools
 
-* In order to set up your credentials for the **JDoodle Compiler API**, please visit the following link: [Compiler API](https://www.jdoodle.com/compiler-api/)
+* In order to set up your **free credentials** for the **JDoodle Compiler API**, please visit the following link: [Compiler API](https://www.jdoodle.com/compiler-api/)
 
 You can view the [JDoodle Compiler API Documentation](https://docs.jdoodle.com/compiler-api/compiler-api) to understand how the API works so that you can tweak the app for your personal purposes too
