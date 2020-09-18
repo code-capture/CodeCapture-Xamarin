@@ -6,7 +6,7 @@ You can check out the [demo video](https://drive.google.com/file/d/1Dso3XfNttYl8
 
 ## 1. Entering the App
  
-![MainPage](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/MainPage.jpg/216px-MainPage.jpg)
+![MainPage](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/MainPage.jpg/280px-MainPage.jpg)
 
 * Page: MainPage.xaml
 * Code: MainPage.xaml.cs
@@ -15,7 +15,7 @@ The **MainPage.xaml** page is the first page that a user will see when they star
 
 ## 2. Capturing An Image
 
-![ImageCapture](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ImageCapture.jpg/216px-ImageCapture.jpg)
+![ImageCapture](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ImageCapture.jpg/280px-ImageCapture.jpg)
 
 * Page: ImageCapture.xaml
 * Code: ImageCapture.xaml.cs
@@ -24,7 +24,7 @@ The **ImageCapture.xaml** page is where the user will capture (click or select) 
 
 ## 3. Extracting The Code
 
-![ExtractText](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/ExtractText.jpg/216px-ExtractText.jpg)
+![ExtractText](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/ExtractText.jpg/280px-ExtractText.jpg)
 
 * Page: ExtractText.xaml
 * Code: ExtractText.xaml.cs
@@ -33,7 +33,7 @@ The **ExtractText.xaml** page is where the code extracted from the image using t
 
 ## 4. Compiling The Code And Displaying Output
 
-![CompileCode](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/CompileCode.jpg/216px-CompileCode.jpg)
+![CompileCode](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/CompileCode.jpg/280px-CompileCode.jpg)
 
 * Page: CompileCode.xaml
 * Code: CompileCode.xaml.cs
@@ -42,7 +42,7 @@ The **CompileCode.xaml** page is where the result of the code is returned by the
 
 ## Emailing The Result
 
-![EmailResult](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/EmailResult.jpg/216px-EmailResult.jpg)
+![EmailResult](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/EmailResult.jpg/280px-EmailResult.jpg)
 
 * Page: EmailResult.xaml
 * Code: EmailResult.xaml.cs
