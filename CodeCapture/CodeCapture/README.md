@@ -1,8 +1,8 @@
 # User Interface of the Application
 
-The application consists of the various Content Pages that the user sees when they use the app. The details and purpose of each page that 
+The application consists of the various Content Pages that the user sees when they use the app. The details and purpose of each page that the user will come across as well as the flow in which these pages will occur has been documented below.
 
-You can check out the [demo video here](https://drive.google.com/file/d/1Dso3XfNttYl8mPMorpG0CSG9iAkEF5rS/view?usp=sharing) as well.
+You can check out the [demo video](https://drive.google.com/file/d/1Dso3XfNttYl8mPMorpG0CSG9iAkEF5rS/view?usp=sharing) of the app as well.
 
 ## 1. Entering the App
  
