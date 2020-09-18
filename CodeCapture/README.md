@@ -1,1 +1,1 @@
-# Open the CodeCapture folder to find all the Content Pages that you will see when you run the app and their backend code
+Open the **CodeCapture** folder in this directory to find all the Content Pages that you will see when you run the app (along with their backend code)

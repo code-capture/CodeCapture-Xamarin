@@ -10,7 +10,7 @@
 
 * Check out the [demo video](https://drive.google.com/file/d/1Dso3XfNttYl8mPMorpG0CSG9iAkEF5rS/view?usp=sharing)
 
-* Download the [Android APK (for testing)](https://drive.google.com/file/d/1Y5xGoUFr09ClH-GQLYCUfc9XKse86nws/view?usp=sharing)
+* Download the [Android APK](https://github.com/adityaoberai/CodeCapture/releases/tag/v1.0-beta) *(for testing)*
  
 
 ## Inspiration
@@ -32,7 +32,7 @@ The following **NuGet** packages are necessary to build and run this project:
 
 * [Xam.Plugin.Media](https://www.nuget.org/packages/Xam.Plugin.Media/5.0.1?_src=template)
 
-* [NETStandard.Library (SDK)](https://www.nuget.org/packages/NETStandard.Library/2.0.3?_src=template)
+* [NETStandard.Library](https://www.nuget.org/packages/NETStandard.Library/2.0.3?_src=template) (SDK)
 
 
 ## Steps To Run
