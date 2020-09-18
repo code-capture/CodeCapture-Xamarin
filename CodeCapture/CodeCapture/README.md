@@ -2,7 +2,7 @@
 
 The application consists of the various Content Pages that the user sees when they use the app. The details and purpose of each page that the user will come across as well as the flow in which these pages will occur has been documented below.
 
-You can check out the [demo video](https://drive.google.com/file/d/1Dso3XfNttYl8mPMorpG0CSG9iAkEF5rS/view?usp=sharing) of the app as well.
+You can check out the [demo video](https://onedrive.live.com/embed?cid=703B19A0781C4859&resid=703B19A0781C4859%21152&authkey=AK5y1O1E3EKQbzg) of the app as well.
 
 ## 1. Entering the App
  
@@ -40,7 +40,7 @@ The **ExtractText.xaml** page is where the code extracted from the image using t
 
 The **CompileCode.xaml** page is where the result of the code is returned by the **JDoodle Compiler API**. In case there are any errors in the code. Those shall be displayed here as well.
 
-## Emailing The Result
+## 5. Emailing The Result
 
 ![EmailResult](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/EmailResult.jpg/280px-EmailResult.jpg)
 
