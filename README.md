@@ -64,3 +64,9 @@ If you are a **full-time student**, you can avail the [Azure For Students](https
 * In order to set up your **free credentials** for the **JDoodle Compiler API**, please visit the following link: [Compiler API](https://www.jdoodle.com/compiler-api/)
 
 You can view the [JDoodle Compiler API Documentation](https://docs.jdoodle.com/compiler-api/compiler-api) to understand how the API works so that you can tweak the app for your personal purposes too
+
+## User Interface of the Application
+
+The application consists of the various Content Pages that the user sees when they use the app. The details and purpose of each page that the user will come across as well as the flow in which these pages will occur have been documented in the [README.md file in the CodeCapture/CodeCapture/ folder](https://github.com/adityaoberai/CodeCapture/blob/master/CodeCapture/CodeCapture/README.md).
+
+You can check out the [demo video](https://drive.google.com/file/d/1Dso3XfNttYl8mPMorpG0CSG9iAkEF5rS/view?usp=sharing) of the app as well.
