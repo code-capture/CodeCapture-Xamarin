@@ -71,7 +71,7 @@ All Jdoodle account holders subscribed to the **Free Plan** can execute **upto 2
 
 | ![MainPage](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/MainPage.jpg/280px-MainPage.jpg) | ![ImageCapture](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ImageCapture.jpg/280px-ImageCapture.jpg) | ![ExtractText](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/ExtractText.jpg/280px-ExtractText.jpg) | ![CompileCode](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/CompileCode.jpg/280px-CompileCode.jpg) | ![EmailResult](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/EmailResult.jpg/280px-EmailResult.jpg) |
 |-|-|-|-|-|
-| Entering the App | Capturing An Image | Extracting The Code | Compiling The Code And Displaying Output | Emailing The Result |
+| Entering the App | Capturing An Image | Extracting The Code | Displaying The Output | Emailing The Result |
 
 The application consists of the various Content Pages that the user sees when they use the app. The details and purpose of each page that the user will come across as well as the flow in which these pages will occur have been documented in the [README.md file in the CodeCapture/CodeCapture/ folder](https://github.com/adityaoberai/CodeCapture/blob/master/CodeCapture/CodeCapture/README.md).
 
