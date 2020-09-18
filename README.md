@@ -37,7 +37,7 @@ The following **NuGet** packages are necessary to build and run this project:
 
 ## Steps To Run
 
-Please follow the following steps to run the project in **Visual Studio 2019**
+Please follow the following steps to run the project in **Visual Studio Community 2019**
 
 1. Clone the repository to a location of your preference
 
@@ -59,11 +59,13 @@ Please follow the following steps to run the project in **Visual Studio 2019**
 
 *Note: Since we have the **Secrets.cs** file, you will not need to create an Environment Variable (as specified in the Quickstart) separately*
 
-If you are a **full-time student**, you can avail the [Azure For Students](https://aka.ms/a4s) offer and receive **$100 worth of Azure credits** as well as various free developer tools
+If you are a **student at an accredited higher education institution**, you can avail the [Azure For Students](https://aka.ms/a4s) offer and receive **$100 worth of Azure credits** as well as various free developer tools. The **Free Tier** of the **Azure Computer Vision resource** that I have used here offers **5000 free transactions per month** at a maximum rate of **20 transactions per minute**.
 
 * In order to set up your **free credentials** for the **JDoodle Compiler API**, please visit the following link: [Compiler API](https://www.jdoodle.com/compiler-api/)
 
 You can view the [JDoodle Compiler API Documentation](https://docs.jdoodle.com/compiler-api/compiler-api) to understand how the API works so that you can tweak the app for your personal purposes too
+
+All Jdoodle account holders subscribed to the **Free Plan** can execute **upto 200 API Calls per day** to the **JDoodle Compile API**.
 
 ## User Interface of the Application
 
