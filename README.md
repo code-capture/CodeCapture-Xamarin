@@ -8,7 +8,7 @@
 **CodeCapture** is a Xamarin.Forms application that captures (clicks using the device Camera or selects from the device storage) a picture of hand-written/printed code (Java, C++, Python, or JavaScript), extracts the text from it using the Azure Computer Vision Read API, compiles it and returns the result using the JDoodle Compiler API, and allows the user to email the code, standard input, and result to any email address of their preference.
 
 
-* Check out the [demo video](https://drive.google.com/file/d/1Dso3XfNttYl8mPMorpG0CSG9iAkEF5rS/view?usp=sharing)
+* Check out the [demo video](https://onedrive.live.com/embed?cid=703B19A0781C4859&resid=703B19A0781C4859%21152&authkey=AK5y1O1E3EKQbzg)
 
 * Download the [Android APK](https://github.com/adityaoberai/CodeCapture/releases/tag/v1.0-beta) *(for testing)*
  
@@ -37,7 +37,7 @@ The following **NuGet** packages are necessary to build and run this project:
 
 ## Steps To Run
 
-Please follow the following steps to run the project in **Visual Studio 2019**
+Please follow the following steps to run the project in **Visual Studio Community 2019**
 
 1. Clone the repository to a location of your preference
 
@@ -59,14 +59,20 @@ Please follow the following steps to run the project in **Visual Studio 2019**
 
 *Note: Since we have the **Secrets.cs** file, you will not need to create an Environment Variable (as specified in the Quickstart) separately*
 
-If you are a **full-time student**, you can avail the [Azure For Students](https://aka.ms/a4s) offer and receive **$100 worth of Azure credits** as well as various free developer tools
+If you are a **student at an accredited higher education institution**, you can avail the [Azure For Students](https://aka.ms/a4s) offer and receive **$100 worth of Azure credits** as well as various free developer tools. The **Free Tier** of the **Azure Computer Vision resource** that I have used here offers **5000 free transactions per month** at a maximum rate of **20 transactions per minute**.
 
 * In order to set up your **free credentials** for the **JDoodle Compiler API**, please visit the following link: [Compiler API](https://www.jdoodle.com/compiler-api/)
 
 You can view the [JDoodle Compiler API Documentation](https://docs.jdoodle.com/compiler-api/compiler-api) to understand how the API works so that you can tweak the app for your personal purposes too
 
+All Jdoodle account holders subscribed to the **Free Plan** can execute **upto 200 API Calls per day** to the **JDoodle Compile API**.
+
 ## User Interface of the Application
+
+| ![MainPage](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/MainPage.jpg/280px-MainPage.jpg) | ![ImageCapture](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ImageCapture.jpg/280px-ImageCapture.jpg) | ![ExtractText](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/ExtractText.jpg/280px-ExtractText.jpg) | ![CompileCode](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/CompileCode.jpg/280px-CompileCode.jpg) | ![EmailResult](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/EmailResult.jpg/280px-EmailResult.jpg) |
+|-|-|-|-|-|
+| Entering the App | Capturing An Image | Extracting The Code | Displaying The Output | Emailing The Result |
 
 The application consists of the various Content Pages that the user sees when they use the app. The details and purpose of each page that the user will come across as well as the flow in which these pages will occur have been documented in the [README.md file in the CodeCapture/CodeCapture/ folder](https://github.com/adityaoberai/CodeCapture/blob/master/CodeCapture/CodeCapture/README.md).
 
-You can check out the [demo video](https://drive.google.com/file/d/1Dso3XfNttYl8mPMorpG0CSG9iAkEF5rS/view?usp=sharing) of the app as well.
+You can check out the [demo video](https://onedrive.live.com/embed?cid=703B19A0781C4859&resid=703B19A0781C4859%21152&authkey=AK5y1O1E3EKQbzg) of the app as well.
