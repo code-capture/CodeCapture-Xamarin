@@ -1,1 +1,10 @@
+.vs/
+CodeCapture/CodeCapture/bin
+CodeCapture/CodeCapture/obj
+CodeCapture/CodeCapture.Android/bin
+CodeCapture/CodeCapture.Android/obj
+CodeCapture/CodeCapture.iOS/bin
+CodeCapture/CodeCapture.iOS/obj
+CodeCapture/CodeCapture.UWP/bin
+CodeCapture/CodeCapture.UWP/obj
 CodeCapture/CodeCapture/Models/Secrets.cs
