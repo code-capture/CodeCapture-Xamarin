@@ -6,7 +6,7 @@
 
 **CodeCapture** is a cross-platform app that aims to assist remote learning experiences in Computer Science for students without computers by taking code from paper to mobile. CodeCapture has the functionality to extract code (C++, Java, JavaScript, or Python) from images of handwritten text and then allow the user to edit, compile, and share the result via email/SMS. We also have various lessons on C++ (more languages coming soon) to assist with students' Computer Science education especially in times like these, where the COVID-19 pandemic and enforced lockdown have kept students away from school.
 
-*Try the Android version by downloading the* [APK file from here](https://drive.google.com/file/d/11BirenK93iEu5qJafIrOviokZ3FLzQ-2/view?usp=sharing) 
+*Try the Android version by downloading the* [APK file from here](https://github.com/adityaoberai/CodeCapture/releases/tag/v1.1-beta) 
 
 *Check out the demo video of the application* [here on YouTube](https://youtu.be/fWh1jjOQNMM)
 
