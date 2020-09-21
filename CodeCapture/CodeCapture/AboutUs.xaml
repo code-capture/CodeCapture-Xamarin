@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodeCapture.AboutUs">
+    <ContentPage.Content>
+        <Grid>
+            <Label 
+                Text="About CodeCapture"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title"
+                Grid.Row="0"
+                Grid.ColumnSpan="7"/>
+
+            <Image 
+                Source="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CodeCapture-Banner-JPG.jpg/1024px-CodeCapture-Banner-JPG.jpg" 
+                Grid.Row="1"
+                Grid.RowSpan="3"
+                Grid.Column="0"
+                Grid.ColumnSpan="7"/>
+            
+            <Label
+                x:Name="aboutUs"
+                Text=""
+                Grid.Row="4"
+                Grid.RowSpan="4"
+                Grid.Column="1"
+                Grid.ColumnSpan="5"/>
+
+            <Button 
+                x:Name="returnButton"
+                Text="Return" 
+                Clicked="returnButton_Clicked"
+                BackgroundColor="MediumAquamarine"
+                BorderColor="Black"
+                BorderWidth="1.5"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Grid.Row="8"
+                Grid.Column="2"
+                Grid.ColumnSpan="3"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -23,6 +23,15 @@ namespace CodeCapture
         public ExtractText(string imagePath)
         {
             InitializeComponent();
+
+            var langList = new List<string>();
+            langList.Add("C++ (GCC 9.1.0)");
+            langList.Add("Java (JDK 11.0.4)");
+            langList.Add("JavaScript(Node.js v12.11.1)");
+            langList.Add("Python (v3.7.4)");
+
+            langPicker.ItemsSource = langList;
+
             ReadText(imagePath);
         }
 
@@ -107,7 +116,7 @@ namespace CodeCapture
             }
             await DisplayAlert("Extracted Text", extract, "Show In Editor");
             editor.Text = extract;
-            await DisplayAlert("Special Instructions", "For C++:\n\n\tDon't forget to add: \n\t\t#include <iostream>\n\t\tusing namespace std;\n\nFor Java:\n\t\tMake sure the class is 'public'", "OK");
+            await DisplayAlert("Special Instructions", "For C++:\n\n\tDon't forget to add: \n\t\t#include <iostream>\n\t\tusing namespace std;\n\nFor Java:\n\t\tMake sure that only the Main class is 'public'\n\t\tYou don't need to add a custom package name", "OK");
         }
 
         //Converts Image to Byte Array and return it
@@ -131,23 +140,23 @@ namespace CodeCapture
 
             if(langPicker.SelectedItem!=null)
             {
-                if (string.Compare(langPicker.SelectedItem.ToString(), "C++ (GCC 9.1.0)") == 0)
+                if (langPicker.SelectedIndex == 0)
                 {
                     lang = "cpp";
                     vers = "4";
                 }
 
-                else if (string.Compare(langPicker.SelectedItem.ToString(), "Java (JDK 11.0.4)") == 0)
+                else if (langPicker.SelectedIndex == 1)
                 {
                     lang = "java";
                     vers = "3";
                 }
-                else if (string.Compare(langPicker.SelectedItem.ToString(), "JavaScript (Node v12.11.1)") == 0)
+                else if (langPicker.SelectedIndex == 2)
                 {
                     lang = "nodejs";
                     vers = "3";
                 }
-                else if (string.Compare(langPicker.SelectedItem.ToString(), "Python (v3.7.4)") == 0)
+                else if (langPicker.SelectedIndex == 3)
                 {
                     lang = "python3";
                     vers = "3";

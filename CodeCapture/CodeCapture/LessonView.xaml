@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodeCapture.LessonView">
+    <ContentPage.Content>
+        <Grid>
+            <Label 
+                x:Name="lessonTitle"
+                Text=""
+                HorizontalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"
+                FontSize="Title"
+                Grid.Row="0"
+                Grid.ColumnSpan="3"/>
+            <WebView 
+                x:Name="viewer"
+                Source="" 
+                Grid.Row="1"
+                Grid.RowSpan="5"
+                Grid.ColumnSpan="3"/>
+            <Button 
+                x:Name="returnButton"
+                Text="Return To Lessons Menu" 
+                Clicked="returnButton_Clicked"
+                BackgroundColor="MediumAquamarine"
+                BorderColor="Black"
+                BorderWidth="1.5"
+                HorizontalOptions="FillAndExpand"
+                Grid.Row="6"
+                Grid.Column="0"
+                Margin="10,0,0,10"/>
+            <Button 
+                x:Name="practiceButton"
+                Text="Practice The Concept" 
+                Clicked="practiceButton_Clicked"
+                BackgroundColor="#7F0DFF00"
+                BorderColor="Black"
+                BorderWidth="1.5"
+                HorizontalOptions="FillAndExpand"
+                Grid.Row="6"
+                Grid.Column="2"
+                Margin="0,0,10,10"/>
+            <Button 
+                x:Name="youtubeButton"
+                Text="Watch On YouTube" 
+                Clicked="youtubeButton_Clicked"
+                BackgroundColor="MediumAquamarine"
+                BorderColor="Black"
+                BorderWidth="1.5"
+                HorizontalOptions="FillAndExpand"
+                Grid.Row="6"
+                Grid.Column="1"
+                Margin="0,0,0,10"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,5 +1,4 @@
-﻿using Plugin.Media;
-using System;
+﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
