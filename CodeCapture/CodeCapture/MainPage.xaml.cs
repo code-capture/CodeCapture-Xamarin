@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,16 +17,19 @@ namespace CodeCapture
         public MainPage()
         {
             InitializeComponent();
-        }
 
-        private async void menuButton_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new LessonMenu());
-        }
+            if (Connectivity.NetworkAccess == NetworkAccess.None)
+            {
+                label.Text="No Network Available\nPlease Connect To Your Wifi Or Turn on Mobile Data";
+                logo.IsEnabled = false;
+            }
+            else
+            {
+                label.Text = "Tap On The Logo to Continue";
+                logo.IsEnabled = true;
+            }
 
-        private async void aboutButton_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new AboutUs());
+            logo.Clicked += (s, e) => Navigation.PushModalAsync(new ImageCapture());
         }
     }
 }

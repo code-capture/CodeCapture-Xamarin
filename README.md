@@ -2,24 +2,21 @@
 
 ![CodeCapture-Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CodeCapture-Banner-JPG.jpg/1024px-CodeCapture-Banner-JPG.jpg)
 
-## About CodeCapture
 
-**CodeCapture** is a cross-platform app that aims to assist remote learning experiences in Computer Science for students without computers by taking code from paper to mobile. CodeCapture has the functionality to extract code (C++, Java, JavaScript, or Python) from images of handwritten text and then allow the user to edit, compile, and share the result via email/SMS. We also have various lessons on C++ (more languages coming soon) to assist with students' Computer Science education especially in times like these, where the COVID-19 pandemic and enforced lockdown have kept students away from school.
+## Description
 
-*Try the Android version by downloading the* [APK file from here](https://github.com/adityaoberai/CodeCapture/releases/tag/v1.1-beta) 
+**CodeCapture** is a Xamarin.Forms application that captures (clicks using the device Camera or selects from the device storage) a picture of hand-written/printed code (Java, C++, Python, or JavaScript), extracts the text from it using the Azure Computer Vision Read API, compiles it and returns the result using the JDoodle Compiler API, and allows the user to email the code, standard input, and result to any email address of their preference.
 
-*Check out the demo video of the application* [here on YouTube](https://youtu.be/fWh1jjOQNMM)
+
+* Check out the [demo video](https://onedrive.live.com/embed?cid=703B19A0781C4859&resid=703B19A0781C4859%21152&authkey=AK5y1O1E3EKQbzg)
+
+* Download the [Android APK](https://github.com/adityaoberai/CodeCapture/releases/tag/v1.0-beta) *(for testing)*
+ 
 
 ## Inspiration
 
-While in recent times, the world has started moving towards pro-CS education, the fact is that buying computers is a distant dream for most students and educational institutions across the globe even today. In most developing countries, the ratio of CS students versus the number of computers available is highly skewed and most students are still learning programming via pen-and-paper. At the same time, however, the number of people who own mobile phones has significantly increased. Bridging this gap between pen-and-paper coding and coding on a computer by using a technology that people already own can bring a significant difference in the adoption of Computer Science education today.
+While in recent times, the world has started moving towards pro-CS education, the fact is that buying computers is a distant dream for most students and educational institutions across the globe even today. In most developing countries, the ratio of CS students versus the number of computers available is highly skewed and most students are still learning programming via pen-and-paper. At the same time, however, the number of people who own mobile phones has significantly increased. Bridging this gap between pen-and-paper coding and coding on a computer by using a technology that people already own can  bring a significant difference in the adoption of Computer Science education today.
 
-## Technologies Used
-
-* Application: Xamarin.Forms (C#, XAML, .NET)
-* Extracting Code: Azure Computer Vision (Read API)
-* Compiling Code: JDoodle Compiler API
-* Result SMS: Twilio Programmable SMS
 
 ## Dependencies
 
@@ -34,8 +31,6 @@ The following **NuGet** packages are necessary to build and run this project:
 * [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/12.0.3?_src=template)
 
 * [Xam.Plugin.Media](https://www.nuget.org/packages/Xam.Plugin.Media/5.0.1?_src=template)
-
-* [Twilio](https://www.nuget.org/packages/Twilio/)
 
 * [NETStandard.Library](https://www.nuget.org/packages/NETStandard.Library/2.0.3?_src=template) (SDK)
 
@@ -57,29 +52,27 @@ Please follow the following steps to run the project in **Visual Studio Communit
  
 6. Run and enjoy :)
 
-## UI Of The Application 
 
-| ![MainPage](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/H-MainPage.jpg/280px-H-MainPage.jpg) | ![AboutUs](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/H-AboutUs.jpg/280px-H-AboutUs.jpg) | ![LessonsMenu](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/H-LessonsMenu.jpg/280px-H-LessonsMenu.jpg) | ![LessonView](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/H-LessonView.jpg/280px-H-LessonView.jpg) | 
-|-|-|-|-|
-| Starting Page | About Us | Lessons Menu | Lesson View |
-|-|-|-|-|
-| ![PracticeView](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/H-PracticeView.jpg/280px-H-PracticeView.jpg) | ![ImageCapture](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/H-ImageCapture.jpg/280px-H-ImageCapture.jpg) | ![ExtractText](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/H-ExtractText.jpg/280px-H-ExtractText.jpg) | ![CompileCode](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/H-OutputCode.jpg/280px-H-OutputCode.jpg) |
-|-|-|-|-|
-| Practice View | Capturing Image | Extracting Code | Displaying Output |
+## Setting Up The APIs
 
-The application consists of the various Content Pages that the user sees when they use the app. You can check out the [demo video of the app here too](https://youtu.be/fWh1jjOQNMM).
+* In order to learn how to set up the **Azure Computer Vision** resource, please do visit the following link: [Resource Set-up Quickstart](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account?tabs=singleservice%2Cwindows)
 
+*Note: Since we have the **Secrets.cs** file, you will not need to create an Environment Variable (as specified in the Quickstart) separately*
 
-## Future Plans
+If you are a **student at an accredited higher education institution**, you can avail the [Azure For Students](https://aka.ms/a4s) offer and receive **$100 worth of Azure credits** as well as various free developer tools. The **Free Tier** of the **Azure Computer Vision resource** that I have used here offers **5000 free transactions per month** at a maximum rate of **20 transactions per minute**.
 
-We do have various plans for the future, such as:
+* In order to set up your **free credentials** for the **JDoodle Compiler API**, please visit the following link: [Compiler API](https://www.jdoodle.com/compiler-api/)
 
-1.  Gamifying the progress for users
-2.  Support for more languages
-3.  Custom lessons on more technologies
-4.  A web-based learning platform designed for educators
-5.  Improvements in UI
+You can view the [JDoodle Compiler API Documentation](https://docs.jdoodle.com/compiler-api/compiler-api) to understand how the API works so that you can tweak the app for your personal purposes too
 
-## Special Credits
+All Jdoodle account holders subscribed to the **Free Plan** can execute **upto 200 API Calls per day** to the **JDoodle Compile API**.
 
-Special thanks to [Aman Dhattarwal](https://www.youtube.com/channel/UCmXZxX_qexEZxhb5_vQKPCw) for the amazing [C++ Course](https://www.youtube.com/playlist?list=PLKKfKV1b9e8qBh_LG02V8R8qGRQjloeBj) he has published on YouTube, which we have utilised in the application.
+## User Interface of the Application
+
+| ![MainPage](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/MainPage.jpg/280px-MainPage.jpg) | ![ImageCapture](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ImageCapture.jpg/280px-ImageCapture.jpg) | ![ExtractText](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/ExtractText.jpg/280px-ExtractText.jpg) | ![CompileCode](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/CompileCode.jpg/280px-CompileCode.jpg) | ![EmailResult](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/EmailResult.jpg/280px-EmailResult.jpg) |
+|-|-|-|-|-|
+| Entering the App | Capturing An Image | Extracting The Code | Displaying The Output | Emailing The Result |
+
+The application consists of the various Content Pages that the user sees when they use the app. The details and purpose of each page that the user will come across as well as the flow in which these pages will occur have been documented in the [README.md file in the CodeCapture/CodeCapture/ folder](https://github.com/adityaoberai/CodeCapture/blob/master/CodeCapture/CodeCapture/README.md).
+
+You can check out the [demo video](https://onedrive.live.com/embed?cid=703B19A0781C4859&resid=703B19A0781C4859%21152&authkey=AK5y1O1E3EKQbzg) of the app as well.

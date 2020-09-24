@@ -6,11 +6,8 @@ You may have noticed that there are references to a file **Secrets** in **namesp
 * Azure Computer Vision Read API Endpoint
 * JDoodle Compiler API Client ID
 * JDoodle Compiler API Client Secret
-* Twilio Account SID
-* Twilio Auth Token
-* Twilio SMS-Capable Phone Number
 
-You can create your own version of the **Secrets.cs** in this folder in the following format:
+You can create your own version of the **Secrets.cs** in this [folder](https://github.com/adityaoberai/CodeCapture/tree/master/CodeCapture/CodeCapture/Models) in the following format:
 
 ```
 
@@ -28,9 +25,6 @@ namespace CodeCapture.Models
         public string READ_endpoint { get; set; } = <Azure Computer Vision Read API Endpoint>;
         public string JDOODLE_clientId { get; set; } = <JDoodle Compiler API Client ID>;
         public string JDOODLE_clientSecret { get; set; } = <JDoodle Compiler API Client Secret>;
-        public string TWILIO_accountSID { get; set; } = <Twilio Account SID>;
-        public string TWILIO_authToken { get; set; } = <Twilio Auth Token>;
-        public string TWILIO_phoneNumber { get; set; } = <Twilio SMS-Capable Phone Number>;
     }
 }
 

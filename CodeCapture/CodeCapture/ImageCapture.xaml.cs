@@ -24,9 +24,6 @@ namespace CodeCapture
         public ImageCapture()
         {
             InitializeComponent();
-
-            extractText.IsEnabled = false;
-            extractText.IsVisible = false;
         }
 
         //Captures images from user's camera
@@ -43,16 +40,13 @@ namespace CodeCapture
             var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
                 SaveToAlbum = true,
-                AllowCropping = false
+                AllowCropping = true
             });
 
             if (file == null)
                 return;
 
             imagePath = file.Path;
-
-            extractText.IsEnabled = true;
-            extractText.IsVisible = true;
 
             image.Source = ImageSource.FromStream(() =>
             {
@@ -82,9 +76,6 @@ namespace CodeCapture
 
             imagePath = file.Path;
 
-            extractText.IsEnabled = true;
-            extractText.IsVisible = true;
-
             image.Source = ImageSource.FromStream(() =>
             {
                 var stream = file.GetStream();
@@ -101,10 +92,6 @@ namespace CodeCapture
             }
             else await Navigation.PushModalAsync(new ExtractText(imagePath));
         }
-
-        private async void menuButton_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new LessonMenu());
-        }
+        
     }
 }

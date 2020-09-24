@@ -52,13 +52,12 @@
                 BorderColor="Black"
                 BorderWidth="1.5"
                 Clicked="returnButton_ClickedAsync"
-                VerticalOptions="FillAndExpand"
+                VerticalOptions="EndAndExpand"
                 HorizontalOptions="FillAndExpand"
                 Grid.Row="14"
-                Grid.RowSpan="2"
                 Grid.Column="0"
                 Grid.ColumnSpan="2"
-                Margin="10,0,0,10" />
+                Margin="10,0,0,0" />
 
             <Button 
                 x:Name="compileButton"
@@ -67,14 +66,13 @@
                 BorderColor="Black"
                 BorderWidth="1.5"
                 Clicked="compileButton_Clicked"
-                VerticalOptions="FillAndExpand"
+                VerticalOptions="EndAndExpand"
                 HorizontalOptions="FillAndExpand"
                 Grid.Row="14"
-                Grid.RowSpan="2"
                 Grid.Column="3"
                 Grid.ColumnSpan="2"
-                Margin="0,0,10,10" />
-
+                Margin="0,0,10,0" />
+            
             <Picker 
                 x:Name="langPicker"  
                 Title="Language" 
@@ -84,8 +82,17 @@
                 Grid.Row="12"
                 Grid.RowSpan="2"
                 Grid.Column="1"
-                Grid.ColumnSpan="3" Margin="0" />
-
+                Grid.ColumnSpan="3" Margin="0">
+                <Picker.ItemsSource>
+                    <x:Array 
+                        Type="{x:Type x:String}">
+                        <x:String>C++ (GCC 9.1.0)</x:String>
+                        <x:String>Java (JDK 11.0.4)</x:String>
+                        <x:String>JavaScript (Node v12.11.1)</x:String>
+                        <x:String>Python (v3.7.4)</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
             <Label 
                 Text="" 
                 Grid.Row="15"/>

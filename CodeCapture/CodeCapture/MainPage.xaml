@@ -8,47 +8,19 @@
 
     <Grid>
         <!-- Place new controls here -->
-        <Image 
+        <ImageButton 
             x:Name="logo"
             Source="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/CodeCapture-Edit.png/840px-CodeCapture-Edit.png" 
             HorizontalOptions="CenterAndExpand"
             VerticalOptions="CenterAndExpand" 
-            Grid.Row="1"
-            Grid.RowSpan="3"
-            Grid.Column="1"
-            Grid.ColumnSpan="3"/>
-
-        <Button 
-            x:Name="menuButton"
-            Text="Lessons Menu" 
-            Clicked="menuButton_Clicked"
-            BackgroundColor="#7F0DFF00"
-            BorderColor="Black"
-            BorderWidth="1.5"
-            Grid.Row="5"
-            Grid.Column="1"
-            Grid.ColumnSpan="3"
-            Margin="10,10,10,10"/>
-
-        <Button 
-            x:Name="aboutButton"
-            Text="About CodeCapture" 
-            Clicked="aboutButton_Clicked"
-            BackgroundColor="MediumAquamarine"
-            BorderColor="Black"
-            TextColor="Black"
-            BorderWidth="1.5"
-            VerticalOptions="End"
-            Grid.Row="6"
-            Grid.Column="0"
-            Grid.ColumnSpan="5"
-            Margin="15,15,15,15"/>
-        
-        <Label 
             Grid.Row="0"
-            Grid.Column="0"
-            Grid.ColumnSpan="5"
-            Margin="0,0,0,0"/>
+            Grid.RowSpan="2"/>
+        <Label
+            x:Name="label"
+            Text="Tap On The Logo to Continue" 
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"
+            Grid.Row="2"/>
 
     </Grid>
 
