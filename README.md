@@ -73,6 +73,6 @@ All Jdoodle account holders subscribed to the **Free Plan** can execute **upto 2
 |-|-|-|-|-|
 | Entering the App | Capturing An Image | Extracting The Code | Displaying The Output | Emailing The Result |
 
-The application consists of the various Content Pages that the user sees when they use the app. The details and purpose of each page that the user will come across as well as the flow in which these pages will occur have been documented in the [README.md file in the CodeCapture/CodeCapture/ folder](https://github.com/adityaoberai/CodeCapture/blob/master/CodeCapture/CodeCapture/README.md).
+The application consists of the various Content Pages that the user sees when they use the app. The details and purpose of each page that the user will come across as well as the flow in which these pages will occur have been documented in the [README.md file in the CodeCapture/CodeCapture/ folder](CodeCapture/CodeCapture/README.md).
 
 You can check out the [demo video](https://onedrive.live.com/embed?cid=703B19A0781C4859&resid=703B19A0781C4859%21152&authkey=AK5y1O1E3EKQbzg) of the app as well.
