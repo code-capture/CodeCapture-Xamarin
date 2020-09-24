@@ -1,3 +1,7 @@
+# DO NOT MERGE INTO MASTER BRANCH OF THE REPOSITORY
+
+---
+
 # CodeCapture
 
 ![CodeCapture-Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/CodeCapture-Banner-JPG.jpg/1024px-CodeCapture-Banner-JPG.jpg)
