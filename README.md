@@ -65,7 +65,7 @@ If you are a **student at an accredited higher education institution**, you can 
 
 You can view the [JDoodle Compiler API Documentation](https://docs.jdoodle.com/compiler-api/compiler-api) to understand how the API works so that you can tweak the app for your personal purposes too
 
-All Jdoodle account holders subscribed to the **Free Plan** can execute **upto 200 API Calls per day** to the **JDoodle Compile API**.
+All JDoodle account holders subscribed to the **Free Plan** can execute **upto 200 API Calls per day** to the **JDoodle Compile API**.
 
 ## User Interface of the Application
 
