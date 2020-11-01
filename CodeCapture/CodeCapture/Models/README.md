@@ -12,7 +12,7 @@ You may have noticed that there are references to a file **Secrets** in **namesp
 
 You can create your own version of the **Secrets.cs** in this folder in the following format:
 
-```
+```csharp
 
 using System;
 using System.Collections.Generic;
@@ -22,7 +22,7 @@ namespace CodeCapture.Models
 {
     class Secrets
     {
-        public string EMAIL_address { get; set; } = <Gmail Address>
+        public string EMAIL_address { get; set; } = <Gmail Address>;
         public string EMAIL_password { get; set; } = <Gmail Password>;
         public string READ_subscriptionKey { get; set; } = <Azure Computer Vision Read API Subscription Key>;
         public string READ_endpoint { get; set; } = <Azure Computer Vision Read API Endpoint>;
