@@ -10,6 +10,8 @@
 
 *Check out the demo video of the application* [here on YouTube](https://youtu.be/fWh1jjOQNMM)
 
+#### **CodeCapture** was featured in the [Student Showcase at .NET Conf 2020](https://www.youtube.com/watch?v=6oxFB73VReI)
+
 ## Inspiration
 
 While in recent times, the world has started moving towards pro-CS education, the fact is that buying computers is a distant dream for most students and educational institutions across the globe even today. In most developing countries, the ratio of CS students versus the number of computers available is highly skewed and most students are still learning programming via pen-and-paper. At the same time, however, the number of people who own mobile phones has significantly increased. Bridging this gap between pen-and-paper coding and coding on a computer by using a technology that people already own can bring a significant difference in the adoption of Computer Science education today.
