@@ -64,9 +64,7 @@ Please follow the following steps to run the project in **Visual Studio Communit
 | ![MainPage](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/H-MainPage.jpg/280px-H-MainPage.jpg) | ![AboutUs](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/H-AboutUs.jpg/280px-H-AboutUs.jpg) | ![LessonsMenu](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/H-LessonsMenu.jpg/280px-H-LessonsMenu.jpg) | ![LessonView](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/H-LessonView.jpg/280px-H-LessonView.jpg) | 
 |-|-|-|-|
 | Starting Page | About Us | Lessons Menu | Lesson View |
-|-|-|-|-|
 | ![PracticeView](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/H-PracticeView.jpg/280px-H-PracticeView.jpg) | ![ImageCapture](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/H-ImageCapture.jpg/280px-H-ImageCapture.jpg) | ![ExtractText](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/H-ExtractText.jpg/280px-H-ExtractText.jpg) | ![CompileCode](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/H-OutputCode.jpg/280px-H-OutputCode.jpg) |
-|-|-|-|-|
 | Practice View | Capturing Image | Extracting Code | Displaying Output |
 
 The application consists of the various Content Pages that the user sees when they use the app. You can check out the [demo video of the app here too](https://youtu.be/fWh1jjOQNMM).
